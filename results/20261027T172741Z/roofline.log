@@ -1,0 +1,4 @@
+weights 2.20 GB (~1.10B params)
+decode floor  (batch 1, weights only): 2.68 ms/token
+prefill floor (512 tokens):          5.93 ms
+

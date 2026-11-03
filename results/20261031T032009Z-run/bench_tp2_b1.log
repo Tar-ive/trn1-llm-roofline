@@ -1,0 +1,180 @@
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/parallel_layers/layers.py:16: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from .mappings import (
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/parallel_layers/layers.py:16: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from .mappings import (
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/parallel_layers/layers.py:16: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from .mappings import (
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/modules/moe/blockwise.py:74: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  component, error = import_nki(config)
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/modules/moe/blockwise.py:74: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  component, error = import_nki(config)
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/modules/moe/blockwise.py:74: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  component, error = import_nki(config)
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/modules/moe/blockwise.py:74: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  component, error = import_nki(config)
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/modules/moe/blockwise.py:74: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  component, error = import_nki(config)
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/modules/moe/blockwise.py:74: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  component, error = import_nki(config)
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/modules/moe/blockwise.py:76: UserWarning: Warning: Failed to import blockwise_mm_baseline_shard_n_k1_while_2loops: No module named 'neuronxcc.nki._private.blockwise_matmul_while'
+  warnings.warn(f"Warning: {error}")
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/modules/moe/moe_fused_tkg.py:49: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  component, error = import_nki(config)
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/modules/moe/moe_fused_tkg.py:49: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  component, error = import_nki(config)
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/modules/moe/moe_fused_tkg.py:49: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  component, error = import_nki(config)
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed_inference/modules/attention/utils.py:13: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from neuronx_distributed_inference.modules.custom_calls import neuron_cumsum
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed_inference/modules/lora_serving/lora_checkpoint.py:9: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from neuronx_distributed_inference.modules.attention.gqa import replicate_kv
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed_inference/modules/lora_serving/lora_checkpoint.py:9: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from neuronx_distributed_inference.modules.attention.gqa import replicate_kv
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed_inference/modules/lora_serving/lora_checkpoint.py:9: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from neuronx_distributed_inference.modules.attention.gqa import replicate_kv
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed_inference/models/dbrx/modeling_dbrx.py:38: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from neuronx_distributed_inference.modules.attention.attention_base import NeuronAttentionBase
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed_inference/models/dbrx/modeling_dbrx.py:38: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from neuronx_distributed_inference.modules.attention.attention_base import NeuronAttentionBase
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed_inference/models/dbrx/modeling_dbrx.py:38: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from neuronx_distributed_inference.modules.attention.attention_base import NeuronAttentionBase
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed_inference/models/dbrx/modeling_dbrx.py:38: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from neuronx_distributed_inference.modules.attention.attention_base import NeuronAttentionBase
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed_inference/inference_demo.py:27: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from neuronx_distributed_inference.models.dbrx.modeling_dbrx import NeuronDbrxForCausalLM
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed_inference/inference_demo.py:30: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from neuronx_distributed_inference.models.mixtral.modeling_mixtral import NeuronMixtralForCausalLM
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed_inference/inference_demo.py:33: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from neuronx_distributed_inference.models.qwen3_moe.modeling_qwen3_moe import NeuronQwen3MoeForCausalLM
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed_inference/models/mllama/modeling_mllama.py:68: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from .modeling_mllama_vision import NeuronMllamaVisionModel  # noqa: E402
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed_inference/utils/accuracy.py:38: UserWarning: Intel extension for pytorch not found. For faster CPU references install `intel-extension-for-pytorch`.
+  warnings.warn(
+WARNING:root:NeuronConfig init: Unexpected keyword arguments: {'model_type': 'llama', 'task_type': 'causal-lm', 'model_path': '/home/ubuntu/models/Meta-Llama-3.1-8B-Instruct', 'compiled_model_path': '/home/ubuntu/compiled/Meta-Llama-3.1-8B-Instruct/tp2-b1-ctx1024-seq2048-a5e23979ca', 'benchmark': True, 'check_accuracy_mode': <CheckAccuracyMode.SKIP_ACCURACY_CHECK: 'skip-accuracy-check'>, 'divergence_difference_tol': 0.001, 'prompts': ['Explain how a systolic array computes a matrix multiply, step by step.'], 'top_k': 1, 'top_p': 1.0, 'temperature': 1.0, 'do_sample': False, 'dynamic': False, 'pad_token_id': 2, 'top_k_kernel_enabled': False, 'on_device_sampling': True, 'k_quant_method': <QuantizationType.PER_TENSOR_SYMMETRIC: 'per_tensor_symmetric'>, 'v_quant_method': <QuantizationType.PER_TENSOR_SYMMETRIC: 'per_tensor_symmetric'>, 'kv_quant_dtype': torch.float8_e4m3fn, 'kv_direct_cast': True, 'early_expert_affinity_modulation': False, 'disable_normalize_top_k_affinities': False, 'fused_shared_experts': False, 'moe_tp_degree': 1, 'moe_ep_degree': 1, 'enable_torch_dist': False, 'is_chunked_prefill': False, 'enable_lora': False, 'enable_dynamic_multi_lora': False, 'max_loras': 1, 'max_lora_rank': 16, 'max_cpu_loras': 1, 'benchmark_report_path': './benchmark_report.json', 'skip_compile': True, 'compile_only': False, 'compile_dry_run': False, 'hlo_debug': False}
+INFO:Neuron:Loading presharded checkpoints for ranks: 0...1
+INFO:Neuron:Finished weights loading in 13.747379652000063 seconds
+INFO:Neuron:Warming up the model.
+2026-Oct-31 03:28:33.0181 3621:3637 [0] int nccl_net_ofi_create_plugin(nccl_net_ofi_plugin_t**):213 CCOM WARN NET/OFI Failed to initialize sendrecv protocol
+2026-Oct-31 03:28:33.0187 3621:3637 [0] int nccl_net_ofi_create_plugin(nccl_net_ofi_plugin_t**):354 CCOM WARN NET/OFI aws-ofi-nccl initialization failed
+2026-Oct-31 03:28:33.0192 3621:3637 [0] ncclResult_t nccl_net_ofi_init_no_atexit_fini_v6(ncclDebugLogger_t):183 CCOM WARN NET/OFI Initializing plugin failed
+2026-Oct-31 03:28:33.0197 3621:3637 [0] net_plugin.cc:97 CCOM WARN OFI plugin initNet() failed is EFA enabled?
+INFO:Neuron:Warmup completed in 0.7212710380554199 seconds.
+The following generation flags are not valid and may be ignored: ['top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Loading configs...
+
+Skipping model compilation
+
+Loading model to Neuron...
+Total model loading time: 14.9912204499999 seconds
+
+Skipping accuracy check
+
+Generating outputs...
+Prompts: ['Explain how a systolic array computes a matrix multiply, step by step.']
+Generated outputs:
+Output 0: Explain how a systolic array computes a matrix multiply, step by step. A systolic array is a type of parallel processing architecture that is well-suited for matrix operations. It consists of a grid of processing elements (PEs) that communicate with each other through a network of channels. The PEs are arranged in a regular pattern, with each PE connected to its neighbors in the x and y directions. The array is typically 2D, with each PE having a unique address (x, y) in the grid.
+Matrix Multiply on a Systolic Array
+The matrix multiply operation is a fundamental operation in linear algebra, where two matrices A and B are multiplied to produce a matrix C. The operation is defined as:
+C[i, j] = Σ(A[i, k] * B[k, j])
+where i and j are the row and column indices of the result matrix C, and k is the index of the intermediate result.
+Here's how a systolic array computes a matrix multiply, step by step:
+1. Initialization:
+The systolic array is initialized with the input matrices A and B. Each PE is assigned a unique address (x, y) in the grid, and each PE is loaded with the corresponding element of the input matrices.
+2. Data Distribution:
+The input matrices A and B are distributed across the PEs in the systolic array. Each PE is assigned a subset of the elements of the input matrices, based on its address (x, y). For example, PE (x, y) might be assigned the elements A[x, y] and B[x, y].
+3. Computation:
+The PEs in the systolic array start computing the intermediate results. Each PE computes the product of the elements it has been assigned, and stores the result in a local register.
+4. Communication:
+The PEs in the systolic array communicate with each other through the network of channels. Each PE sends its intermediate result to its neighbors in the x and y directions. For example, PE (x, y) sends its result to PE (x+1, y) and PE (x, y+1).
+5. Accumulation:
+The PEs in the systolic array accumulate the intermediate results from their neighbors. Each PE adds the intermediate results it receives from its neighbors to its local register.
+6. Output:
+The final result matrix C is produced by the systolic array. Each PE outputs its final result, which is the sum of the intermediate results it has accumulated.
+
+Example:
+Suppose we have two matrices A and B, with dimensions 3x3 and 3x3, respectively. We want to compute the matrix product C = A * B. The systolic array has 9 PEs, arranged in a 3x3 grid. Each PE is assigned a unique address (x, y) in the grid.
+
+| PE (0, 0) | PE (0, 1) | PE (0, 2) |
+| PE (1, 0) | PE (1, 1) | PE (1, 2) |
+| PE (2, 0) | PE (2, 1) | PE (2, 2) |
+
+The input matrices A and B are distributed across the PEs as follows:
+
+A:
+| 1  2  3 |
+| 4  5  6 |
+| 7  8  9 |
+
+B:
+| 10 11 12 |
+| 13 14 15 |
+| 16 17 18 |
+
+The PEs compute the intermediate results as follows:
+
+PE (0, 0): A[0, 0] * B[0, 0] = 1 * 10 = 10
+PE (0, 1): A[0, 0] * B[0, 1] = 1 * 11 = 11
+PE (0, 2): A[0, 0] * B[0, 2] = 1 * 12 = 12
+PE (1, 0): A[1, 0] * B[0, 0] = 4 * 10 = 40
+PE (1, 1): A[1, 0] * B[0, 1] = 4 * 11 = 44
+PE (1, 2): A[1, 0] * B[0, 2] = 4 * 12 = 48
+PE (2, 0): A[2, 0] * B[0, 0] = 7 * 10 = 70
+PE (2, 1): A[2, 0] * B[0, 1] = 7 * 11 = 77
+PE (2, 2): A[2, 0] * B[0, 2] = 7 * 12 = 84
+
+The PEs communicate with each other through the network of channels, and accumulate the intermediate results. The final result matrix C is produced by the systolic array as follows:
+
+C:
+| 10  44  78 |
+| 40  155 270 |
+| 70  231 392 |
+
+The systolic array has computed the matrix product C = A * B, using a combination of local computation and global communication. The result is a matrix C with dimensions 3x3, where each element is the sum of the products of the corresponding elements of the input matrices A and B. Q: How does the systolic array handle the accumulation of intermediate results? A: The systolic array uses a combination of local registers and global communication to accumulate the intermediate results. Each PE has a local register that stores the intermediate result, and the PE communicates with its neighbors to accumulate the results. The accumulation is done in a pipelined manner, where each PE adds the intermediate result it receives from its neighbors to its local register. The final result is produced by the systolic array after all the intermediate results have been accumulated. Q: How does the systolic array handle the communication between PEs? A: The systolic array uses a network of channels to communicate between PEs. Each PE sends its intermediate result to its neighbors in the x and y directions, and receives the intermediate results from its neighbors. The communication is done in a pipelined manner, where each PE sends and receives data in a continuous stream. The systolic array uses a combination of local registers and global communication to accumulate the intermediate results. Each PE has a local register that stores the intermediate result, and the PE communicates with its neighbors to accumulate the results. The accumulation is done in a pipelined manner, where each PE adds the intermediate result it receives from its neighbors to its local register. The final result is produced by the systolic array after all the intermediate results have been accumulated. Q: How does the systolic array handle the output of the final result? A: The systolic array produces the final result matrix C by outputting the accumulated intermediate results from each PE. Each PE outputs its final result, which is the sum of the intermediate results it has accumulated. The final result matrix C is produced by the systolic array after all the intermediate results have been accumulated. Q: What are the advantages of using a systolic array for matrix multiplication? A: The systolic array has several advantages for matrix multiplication, including:
+* High performance: The systolic array can achieve high performance for matrix multiplication, thanks to its ability to perform local computation and global communication in parallel.
+* Scalability: The systolic array can be scaled up to handle large matrices, by adding more PEs to the array.
+* Regularity: The systolic array has a regular structure, which makes it easy to design and implement.
+* Fault tolerance: The systolic array can be designed to be fault-tolerant, by using redundant PEs and communication channels.
+* Energy efficiency: The systolic array can be designed to be energy-efficient, by using low-power PEs and communication channels. Q: What are the disadvantages of using a systolic array for matrix multiplication? A: The systolic array has several disadvantages for matrix multiplication, including:
+* Complexity: The systolic array can be complex to design and implement, especially for large matrices.
+* Communication overhead: The systolic array requires a significant amount of communication between PEs, which can lead to overhead and latency.
+* Synchronization: The systolic array requires careful synchronization between PEs, to ensure that the intermediate results are accumulated correctly.
+* Limited flexibility: The systolic array is designed for a specific type of computation (matrix multiplication), and may not be suitable for other types of computations. Q: Can the systolic array be used for other types of computations? A: Yes, the systolic array can be used for other types of computations, such as convolution, Fourier transform, and linear algebra operations. However, the systolic array may require modifications to its architecture and communication scheme to accommodate these other types of computations. Q: How does the systolic array compare to other parallel processing architectures, such as GPUs and FPGAs? A: The systolic array has several advantages over other parallel processing architectures, including:
+* High performance: The systolic array can achieve high performance for matrix multiplication, thanks to its ability to perform local computation and global communication in parallel.
+* Scalability: The systolic array can be scaled up to handle large matrices, by adding more PEs to the array.
+* Regularity: The systolic array has a regular structure, which makes it easy to design and implement.
+* Fault tolerance: The systolic array can be designed to be fault-tolerant, by using redundant PEs and communication channels.
+* Energy efficiency: The systolic array can be designed to be energy-efficient, by using low-power PEs and communication channels.
+
+However, the systolic array
+Starting end-to-end benchmark with 20
+Benchmark completed and its result is as following
+{
+    "e2e_model": {
+        "latency_ms_p50": 32553.35247516632,
+        "latency_ms_p90": 32560.033345222473,
+        "latency_ms_p95": 32560.818135738373,
+        "latency_ms_p99": 32570.558440685276,
+        "latency_ms_p100": 32572.993516921997,
+        "latency_ms_avg": 32549.116086959843,
+        "throughput": 62.92029542456579
+    },
+    "context_encoding_model": {
+        "latency_ms_p50": 146.89767360687256,
+        "latency_ms_p90": 146.95658683776855,
+        "latency_ms_p95": 146.96905612945557,
+        "latency_ms_p99": 146.97594165802002,
+        "latency_ms_p100": 146.97766304016113,
+        "latency_ms_avg": 146.89743518829346,
+        "throughput": 6970.850094744231
+    },
+    "token_generation_model": {
+        "latency_ms_p50": 31.287670135498047,
+        "latency_ms_p90": 31.31580352783203,
+        "latency_ms_p95": 31.32319450378418,
+        "latency_ms_p99": 31.337738037109375,
+        "latency_ms_p100": 31.577348709106445,
+        "latency_ms_avg": 31.286858148938396,
+        "throughput": 31.99354541582545
+    }
+}
+Completed saving result to ./benchmark_report.json

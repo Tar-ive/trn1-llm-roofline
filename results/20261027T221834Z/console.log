@@ -1,0 +1,12 @@
+NXDI_VENV=/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13 VLLM_VENV=/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13
+== inventory (59 min left)
+inventory rc=0 53s
+== model (59 min left)
+model rc=0 8s
+== bench_b1 (54 min left)
+bench_b1 rc=1 3s
+== bench_b4 (54 min left)
+bench_b4 rc=1 3s
+== profile_b1 (54 min left)
+profile_b1 rc=1 8s
+== vllm_c1 (54 min left)

@@ -1,0 +1,7 @@
+inventory rc=0 59s
+swap rc=0 0s
+model rc=0 88s
+compile_tp2_b1 rc=0 93s
+bench_tp2_b1 rc=0 779s
+compile_tp2_b16 rc=0 89s
+bench_tp2_b16 rc=0 1091s

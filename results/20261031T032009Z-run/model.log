@@ -1,0 +1,31 @@
+Fetching 14 files:   0%|          | 0/14 [00:00<?, ?it/s]Downloading 'model-00001-of-00004.safetensors' to '/home/ubuntu/models/Meta-Llama-3.1-8B-Instruct/.cache/huggingface/download/IO4xwqmZYzFmxznkwkiNSBwO1H0=.2b1879f356aed350030bb40eb45ad362c89d9891096f79a3ab323d3ba5607668.incomplete'
+Downloading '.gitattributes' to '/home/ubuntu/models/Meta-Llama-3.1-8B-Instruct/.cache/huggingface/download/wPaCkH-WbT7GsmxMKKrNZTV4nSM=.a6344aac8c09253b3b630fb776ae94478aa0275b.incomplete'
+Downloading 'generation_config.json' to '/home/ubuntu/models/Meta-Llama-3.1-8B-Instruct/.cache/huggingface/download/3EVKVggOldJcKSsGjSdoUCN1AyQ=.cc7276afd599de091142c6ed3005faf8a74aa257.incomplete'
+Downloading 'README.md' to '/home/ubuntu/models/Meta-Llama-3.1-8B-Instruct/.cache/huggingface/download/Xn7B-BWUGOee2Y6hCZtEhtFu4BE=.71ce2f59177b48e3da2ac1b559393f4fcd9b3ea1.incomplete'
+Downloading 'model-00002-of-00004.safetensors' to '/home/ubuntu/models/Meta-Llama-3.1-8B-Instruct/.cache/huggingface/download/t9msAuTjAZjuQnmzGOwTjiptvIU=.09d433f650646834a83c580877bd60c6d1f88f7755305c12576b5c7058f9af15.incomplete'
+Downloading 'config.json' to '/home/ubuntu/models/Meta-Llama-3.1-8B-Instruct/.cache/huggingface/download/8_PA_wEVGiVa2goH2H4KQOQpvVY=.0bb6fd75b3ad2fe988565929f329945262c2814e.incomplete'
+Downloading 'USE_POLICY.md' to '/home/ubuntu/models/Meta-Llama-3.1-8B-Instruct/.cache/huggingface/download/UcPfAI5B08awK9_TiALuc0iOThI=.81ebb55902285e8dd5804ccf423d17ffb2a622ee.incomplete'
+Downloading 'LICENSE' to '/home/ubuntu/models/Meta-Llama-3.1-8B-Instruct/.cache/huggingface/download/DhCjcNQuMpl4FL346qr3tvNUCgY=.a7c3ca16cee30425ed6ad841a809590f2bcbf290.incomplete'
+Download complete. Moving file to /home/ubuntu/models/Meta-Llama-3.1-8B-Instruct/.gitattributes
+Download complete. Moving file to /home/ubuntu/models/Meta-Llama-3.1-8B-Instruct/generation_config.json
+Download complete. Moving file to /home/ubuntu/models/Meta-Llama-3.1-8B-Instruct/README.md
+Download complete. Moving file to /home/ubuntu/models/Meta-Llama-3.1-8B-Instruct/config.json
+Fetching 14 files:   7%|▋         | 1/14 [00:00<00:02,  4.67it/s]Download complete. Moving file to /home/ubuntu/models/Meta-Llama-3.1-8B-Instruct/USE_POLICY.md
+Downloading 'model-00004-of-00004.safetensors' to '/home/ubuntu/models/Meta-Llama-3.1-8B-Instruct/.cache/huggingface/download/-dFtyT7kcgbTHt1cy9JKqruJCR4=.92ecfe1a2414458b4821ac8c13cf8cb70aed66b5eea8dc5ad9eeb4ff309d6d7b.incomplete'
+Download complete. Moving file to /home/ubuntu/models/Meta-Llama-3.1-8B-Instruct/LICENSE
+Downloading 'model-00003-of-00004.safetensors' to '/home/ubuntu/models/Meta-Llama-3.1-8B-Instruct/.cache/huggingface/download/DaGOU-KRMVrY0aYktrsE34tL0Bs=.fc1cdddd6bfa91128d6e94ee73d0ce62bfcdb7af29e978ddcab30c66ae9ea7fa.incomplete'
+Downloading 'special_tokens_map.json' to '/home/ubuntu/models/Meta-Llama-3.1-8B-Instruct/.cache/huggingface/download/ahkChHUJFxEmOdq5GDFEmerRzCY=.02ee80b6196926a5ad790a004d9efd6ab1ba6542.incomplete'
+Downloading 'model.safetensors.index.json' to '/home/ubuntu/models/Meta-Llama-3.1-8B-Instruct/.cache/huggingface/download/yVzAsSxRSINSz-tQbpx-TLpfkLU=.0fd8120f1c6acddc268ebc2583058efaf699a771.incomplete'
+Download complete. Moving file to /home/ubuntu/models/Meta-Llama-3.1-8B-Instruct/special_tokens_map.json
+Downloading 'tokenizer.json' to '/home/ubuntu/models/Meta-Llama-3.1-8B-Instruct/.cache/huggingface/download/HgM_lKo9sdSCfRtVg7MMFS7EKqo=.5cc5f00a5b203e90a27a3bd60d1ec393b07971e8.incomplete'
+Download complete. Moving file to /home/ubuntu/models/Meta-Llama-3.1-8B-Instruct/model.safetensors.index.json
+Downloading 'tokenizer_config.json' to '/home/ubuntu/models/Meta-Llama-3.1-8B-Instruct/.cache/huggingface/download/vzaExXFZNBay89bvlQv-ZcI6BTg=.421cda369d1e01e742b01d82e3a39c7cc82a8586.incomplete'
+Download complete. Moving file to /home/ubuntu/models/Meta-Llama-3.1-8B-Instruct/tokenizer_config.json
+Download complete. Moving file to /home/ubuntu/models/Meta-Llama-3.1-8B-Instruct/tokenizer.json
+Download complete. Moving file to /home/ubuntu/models/Meta-Llama-3.1-8B-Instruct/model-00004-of-00004.safetensors
+Download complete. Moving file to /home/ubuntu/models/Meta-Llama-3.1-8B-Instruct/model-00003-of-00004.safetensors
+Download complete. Moving file to /home/ubuntu/models/Meta-Llama-3.1-8B-Instruct/model-00002-of-00004.safetensors
+Download complete. Moving file to /home/ubuntu/models/Meta-Llama-3.1-8B-Instruct/model-00001-of-00004.safetensors
+Fetching 14 files:  50%|█████     | 7/14 [01:26<01:30, 12.90s/it]Fetching 14 files: 100%|██████████| 14/14 [01:26<00:00,  6.18s/it]
+/home/ubuntu/models/Meta-Llama-3.1-8B-Instruct
+15G	/home/ubuntu/models/Meta-Llama-3.1-8B-Instruct

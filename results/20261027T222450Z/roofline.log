@@ -1,0 +1,12 @@
+weights 2.20 GB (~1.10B params)
+decode floor  (batch 1, weights only): 2.68 ms/token
+prefill floor (512 tokens):          5.93 ms
+
+## bench_b1/benchmark_report.json
+  e2e_model                    p50=2740.3883934020996 p99=2762.628493309021 thrpt=373.4382940297622
+  context_encoding_model       p50=17.50969886779785 p99=17.57021188735962 thrpt=29231.443989880874  -> 34% of compute roofline
+  token_generation_model       p50=4.921317100524902 p99=4.978134632110595 thrpt=203.43543229932246  -> 55% of HBM roofline
+## bench_b4/benchmark_report.json
+  e2e_model                    p50=2988.6603355407715 p99=3012.1196627616882 thrpt=1369.635895588831
+  context_encoding_model       p50=60.29784679412842 p99=60.35073518753052 thrpt=33964.03024442821  -> 10% of compute roofline
+  token_generation_model       p50=5.259990692138672 p99=5.313396453857422 thrpt=762.2751429385484  -> 51% of HBM roofline

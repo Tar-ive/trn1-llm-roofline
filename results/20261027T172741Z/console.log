@@ -1,0 +1,20 @@
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+datasets 5.1.0 requires huggingface-hub<3.0,>=1.31.0, but you have huggingface-hub 0.36.2 which is incompatible.
+NXDI_VENV=/opt/aws_neuronx_venv_torch_neuronx_2_14_0 VLLM_VENV=/opt/aws_neuronx_venv_pytorch_inference_vllm_0_29_0_1_2_0
+== inventory (54 min left)
+inventory rc=0 115s
+== model (52 min left)
+model rc=0 49s
+== bench_b1 (49 min left)
+bench_b1 rc=1 3s
+== bench_b4 (49 min left)
+bench_b4 rc=1 3s
+== profile_b1 (48 min left)
+profile_b1 rc=0 7s
+== vllm_c1 (48 min left)
+vllm_c1 rc=1 913s
+== vllm_c4 (33 min left)
+vllm_c4 rc=1 913s
+== roofline (18 min left)
+roofline rc=0 0s
+done with 18 min left

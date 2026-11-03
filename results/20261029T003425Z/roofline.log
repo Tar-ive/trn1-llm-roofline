@@ -1,0 +1,20 @@
+weights 2.20 GB (~1.10B params)
+decode floor  (batch 1, weights only): 2.68 ms/token
+prefill floor (512 tokens):          5.93 ms
+
+## bench_tp1_b1/benchmark_report.json  (TP 1, batch 1)
+  e2e_model                    p50=4958.7191343307495 p99=4962.56404876709 thrpt=206.61455116882718
+  context_encoding_model       p50=24.944305419921875 p99=24.98561143875122 thrpt=20523.59847603356  -> 24% of compute roofline
+  token_generation_model       p50=9.259700775146484 p99=9.293272495269775 thrpt=108.18700925136201  -> 29% of HBM roofline
+## bench_tp1_b4/benchmark_report.json  (TP 1, batch 4)
+  e2e_model                    p50=5437.056541442871 p99=5443.693211078644 thrpt=753.6788382390065
+  context_encoding_model       p50=118.33584308624268 p99=118.37488174438477 thrpt=17306.673449698596  -> 20% of compute roofline
+  token_generation_model       p50=9.931564331054688 p99=9.988977909088135 thrpt=403.4323464434917  -> 27% of HBM roofline
+## bench_tp2_b1/benchmark_report.json  (TP 2, batch 1)
+  e2e_model                    p50=2738.1151914596558 p99=2766.776773929596 thrpt=373.8571577108191
+  context_encoding_model       p50=17.5173282623291 p99=17.759673595428467 thrpt=29204.74960561388  -> 34% of compute roofline
+  token_generation_model       p50=4.918336868286133 p99=4.98504877090454 thrpt=203.52209229468778  -> 55% of HBM roofline
+## bench_tp2_b4/benchmark_report.json  (TP 2, batch 4)
+  e2e_model                    p50=2987.030863761902 p99=3005.6504249572754 thrpt=1370.6277263099025
+  context_encoding_model       p50=60.33217906951904 p99=60.38649559020996 thrpt=33943.93869654283  -> 39% of compute roofline
+  token_generation_model       p50=5.255222320556641 p99=5.307197570800781 thrpt=762.2921018376047  -> 51% of HBM roofline

@@ -1,0 +1,357 @@
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/parallel_layers/layers.py:16: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from .mappings import (
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/parallel_layers/layers.py:16: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from .mappings import (
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/parallel_layers/layers.py:16: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from .mappings import (
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/modules/moe/blockwise.py:74: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  component, error = import_nki(config)
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/modules/moe/blockwise.py:74: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  component, error = import_nki(config)
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/modules/moe/blockwise.py:74: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  component, error = import_nki(config)
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/modules/moe/blockwise.py:74: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  component, error = import_nki(config)
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/modules/moe/blockwise.py:74: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  component, error = import_nki(config)
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/modules/moe/blockwise.py:74: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  component, error = import_nki(config)
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/modules/moe/blockwise.py:76: UserWarning: Warning: Failed to import blockwise_mm_baseline_shard_n_k1_while_2loops: No module named 'neuronxcc.nki._private.blockwise_matmul_while'
+  warnings.warn(f"Warning: {error}")
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/modules/moe/moe_fused_tkg.py:49: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  component, error = import_nki(config)
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/modules/moe/moe_fused_tkg.py:49: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  component, error = import_nki(config)
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/modules/moe/moe_fused_tkg.py:49: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  component, error = import_nki(config)
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed_inference/modules/attention/utils.py:13: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from neuronx_distributed_inference.modules.custom_calls import neuron_cumsum
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed_inference/modules/lora_serving/lora_checkpoint.py:9: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from neuronx_distributed_inference.modules.attention.gqa import replicate_kv
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed_inference/modules/lora_serving/lora_checkpoint.py:9: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from neuronx_distributed_inference.modules.attention.gqa import replicate_kv
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed_inference/modules/lora_serving/lora_checkpoint.py:9: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from neuronx_distributed_inference.modules.attention.gqa import replicate_kv
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed_inference/models/dbrx/modeling_dbrx.py:38: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from neuronx_distributed_inference.modules.attention.attention_base import NeuronAttentionBase
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed_inference/models/dbrx/modeling_dbrx.py:38: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from neuronx_distributed_inference.modules.attention.attention_base import NeuronAttentionBase
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed_inference/models/dbrx/modeling_dbrx.py:38: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from neuronx_distributed_inference.modules.attention.attention_base import NeuronAttentionBase
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed_inference/models/dbrx/modeling_dbrx.py:38: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from neuronx_distributed_inference.modules.attention.attention_base import NeuronAttentionBase
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed_inference/inference_demo.py:27: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from neuronx_distributed_inference.models.dbrx.modeling_dbrx import NeuronDbrxForCausalLM
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed_inference/inference_demo.py:30: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from neuronx_distributed_inference.models.mixtral.modeling_mixtral import NeuronMixtralForCausalLM
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed_inference/inference_demo.py:33: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from neuronx_distributed_inference.models.qwen3_moe.modeling_qwen3_moe import NeuronQwen3MoeForCausalLM
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed_inference/models/mllama/modeling_mllama.py:68: DeprecationWarning: torch_neuronx.nki_jit is deprecated, use nki.jit instead.
+  from .modeling_mllama_vision import NeuronMllamaVisionModel  # noqa: E402
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed_inference/utils/accuracy.py:38: UserWarning: Intel extension for pytorch not found. For faster CPU references install `intel-extension-for-pytorch`.
+  warnings.warn(
+WARNING:root:NeuronConfig init: Unexpected keyword arguments: {'model_type': 'llama', 'task_type': 'causal-lm', 'model_path': '/home/ubuntu/models/TinyLlama-1.1B-Chat-v1.0', 'compiled_model_path': '/home/ubuntu/compiled/TinyLlama-1.1B-Chat-v1.0-tp2-b1', 'benchmark': True, 'check_accuracy_mode': <CheckAccuracyMode.SKIP_ACCURACY_CHECK: 'skip-accuracy-check'>, 'divergence_difference_tol': 0.001, 'prompts': ['Explain how a systolic array computes a matrix multiply, step by step.'], 'top_k': 1, 'top_p': 1.0, 'temperature': 1.0, 'do_sample': False, 'dynamic': False, 'pad_token_id': 2, 'top_k_kernel_enabled': False, 'on_device_sampling': True, 'k_quant_method': <QuantizationType.PER_TENSOR_SYMMETRIC: 'per_tensor_symmetric'>, 'v_quant_method': <QuantizationType.PER_TENSOR_SYMMETRIC: 'per_tensor_symmetric'>, 'kv_quant_dtype': torch.float8_e4m3fn, 'kv_direct_cast': True, 'early_expert_affinity_modulation': False, 'disable_normalize_top_k_affinities': False, 'fused_shared_experts': False, 'moe_tp_degree': 1, 'moe_ep_degree': 1, 'enable_torch_dist': False, 'is_chunked_prefill': False, 'enable_lora': False, 'enable_dynamic_multi_lora': False, 'max_loras': 1, 'max_lora_rank': 16, 'max_cpu_loras': 1, 'benchmark_report_path': './benchmark_report.json', 'skip_compile': False, 'compile_only': False, 'compile_dry_run': False, 'hlo_debug': False}
+INFO:Neuron:Saving the neuron_config to /home/ubuntu/compiled/TinyLlama-1.1B-Chat-v1.0-tp2-b1/
+INFO:Neuron:Generating HLOs for the following models: ['context_encoding_model', 'token_generation_model']
+Loading configs...
+
+Compiling and saving model...
+[2026-10-27 22:25:38.525: I neuronx_distributed/parallel_layers/parallel_state.py:638] > initializing tensor model parallel with size 2
+[2026-10-27 22:25:38.525: I neuronx_distributed/parallel_layers/parallel_state.py:639] > initializing pipeline model parallel with size 1
+[2026-10-27 22:25:38.525: I neuronx_distributed/parallel_layers/parallel_state.py:640] > initializing context model parallel with size 1
+[2026-10-27 22:25:38.525: I neuronx_distributed/parallel_layers/parallel_state.py:641] > initializing data parallel with size 1
+[2026-10-27 22:25:38.525: I neuronx_distributed/parallel_layers/parallel_state.py:642] > initializing world size to 2
+[2026-10-27 22:25:38.525: I neuronx_distributed/parallel_layers/parallel_state.py:387] [rank_0_pp-1_tp-1_dp-1_cp-1] Chosen Logic for replica groups ret_logic=<PG_Group_Logic.LOGIC1: (<function ascending_ring_PG_group at 0x72b1610f60c0>, 'Ascending Ring PG Group')>
+[2026-10-27 22:25:38.527: I neuronx_distributed/parallel_layers/parallel_state.py:666] [rank_0_pp-1_tp-1_dp-1_cp-1] tp_groups: replica_groups.tp_groups=[[0, 1]]
+[2026-10-27 22:25:38.527: I neuronx_distributed/parallel_layers/parallel_state.py:667] [rank_0_pp-1_tp-1_dp-1_cp-1] dp_groups: replica_groups.dp_groups=[[0], [1]]
+[2026-10-27 22:25:38.527: I neuronx_distributed/parallel_layers/parallel_state.py:668] [rank_0_pp-1_tp-1_dp-1_cp-1] pp_groups: replica_groups.pp_groups=[[0], [1]]
+[2026-10-27 22:25:38.527: I neuronx_distributed/parallel_layers/parallel_state.py:669] [rank_0_pp-1_tp-1_dp-1_cp-1] cp_groups: replica_groups.cp_groups=[[0], [1]]
+[2026-10-27 22:25:38.527: I neuronx_distributed/parallel_layers/parallel_state.py:670] [rank_0_pp-1_tp-1_dp-1_cp-1] ep_model_groups: replica_groups.ep_model_groups=[[0], [1]]
+[2026-10-27 22:25:38.527: I neuronx_distributed/parallel_layers/parallel_state.py:671] [rank_0_pp-1_tp-1_dp-1_cp-1] ep_data_groups: replica_groups.ep_data_groups=[[0], [1]]
+INFO:Neuron:Generating 1 hlos for key: context_encoding_model
+INFO:Neuron:Minimal metadata will be added to HLO
+INFO:Neuron:Started loading module context_encoding_model
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+INFO:Neuron:Finished loading module context_encoding_model in 0.05389976501464844 seconds
+INFO:Neuron:generating HLO: context_encoding_model, input example shape = torch.Size([1, 512])
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/parallel_layers/layers.py:532: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=False):
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/torch_neuronx/xla_impl/hlo_conversion.py:470: UserWarning: Received an input tensor that was unused or used in a non-static way when traced so the tensor will be ignored. (index=1, shape=torch.Size([1, 512]), dtype=torch.int32). The non-static usage could happen when the traced function expects the input tensor's shape to change (i.e., using the shape to do index slicing), which is not allowed by inference trace expecting static input shapes.
+  warnings.warn(
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/torch_neuronx/xla_impl/hlo_conversion.py:470: UserWarning: Received an input tensor that was unused or used in a non-static way when traced so the tensor will be ignored. (index=3, shape=torch.Size([1]), dtype=torch.int32). The non-static usage could happen when the traced function expects the input tensor's shape to change (i.e., using the shape to do index slicing), which is not allowed by inference trace expecting static input shapes.
+  warnings.warn(
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/torch_neuronx/xla_impl/hlo_conversion.py:470: UserWarning: Received an input tensor that was unused or used in a non-static way when traced so the tensor will be ignored. (index=4, shape=torch.Size([1, 3]), dtype=torch.float32). The non-static usage could happen when the traced function expects the input tensor's shape to change (i.e., using the shape to do index slicing), which is not allowed by inference trace expecting static input shapes.
+  warnings.warn(
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/torch_neuronx/xla_impl/hlo_conversion.py:470: UserWarning: Received an input tensor that was unused or used in a non-static way when traced so the tensor will be ignored. (index=5, shape=torch.Size([1]), dtype=torch.int32). The non-static usage could happen when the traced function expects the input tensor's shape to change (i.e., using the shape to do index slicing), which is not allowed by inference trace expecting static input shapes.
+  warnings.warn(
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/torch_neuronx/xla_impl/hlo_conversion.py:470: UserWarning: Received an input tensor that was unused or used in a non-static way when traced so the tensor will be ignored. (index=6, shape=torch.Size([1]), dtype=torch.int32). The non-static usage could happen when the traced function expects the input tensor's shape to change (i.e., using the shape to do index slicing), which is not allowed by inference trace expecting static input shapes.
+  warnings.warn(
+INFO:Neuron:Finished generating HLO for context_encoding_model in 2.400879383087158 seconds, input example shape = torch.Size([1, 512])
+INFO:Neuron:Generating 1 hlos for key: token_generation_model
+INFO:Neuron:Minimal metadata will be added to HLO
+INFO:Neuron:Started loading module token_generation_model
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+INFO:Neuron:Finished loading module token_generation_model in 0.044655799865722656 seconds
+INFO:Neuron:generating HLO: token_generation_model, input example shape = torch.Size([1, 1])
+INFO:Neuron:Finished generating HLO for token_generation_model in 0.861663818359375 seconds, input example shape = torch.Size([1, 1])
+INFO:Neuron:Generated all HLOs in 3.494537830352783 seconds
+INFO:Neuron:Starting compilation for the priority HLO
+INFO:Neuron:'token_generation_model' is the priority model with bucket rank 0
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/libneuronxla/neuron_cc_wrapper.py:284: SyntaxWarning: str format compiler_flags is discouraged as its handling involves repeated joining and splitting, which can easily make mistakes if something is quoted or escaped. Use list[str] instead. Refer to documentation of the Python subprocess module for details.
+  warnings.warn(SyntaxWarning(
+...
+Compiler status PASS
+2026-10-27 22:26:39.000720:  4350  [INFO]: Compilation Successfully Completed for model.MODULE_fa25df325303b715ab26+97c2cc02.hlo_module.pb
+INFO:Neuron:Done compilation for the priority HLO in 57.70703458786011 seconds
+2026-10-27 22:26:40.094395: W hilo/hlo_passes/neuron_collective_permute_to_all_gather.cc:30] Platform Version: . Defaulting to 32 cores
+INFO:Neuron:Updating the hlo module with optimized layout
+INFO:Neuron:Done optimizing weight layout for all HLOs in 0.45282888412475586 seconds
+INFO:Neuron:Starting compilation for all HLOs
+INFO:Neuron:Neuron compiler flags: --auto-cast=none --model-type=transformer  --tensorizer-options='--enable-ccop-compute-overlap --cc-pipeline-tiling-factor=2 --vectorize-strided-dma ' --lnc=1 -O1  --internal-hlo2tensorizer-options=' --modular-flow-mac-threshold=10  --verify-hlo=true'  --verbose=35 --logfile=/tmp/nxd_model/context_encoding_model/_tp0_bk0/log-neuron-cc.txt
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/libneuronxla/neuron_cc_wrapper.py:246: SyntaxWarning: str format compiler_flags is discouraged as its handling involves repeated joining and splitting, which can easily make mistakes if something is quoted or escaped. Use list[str] instead. Refer to documentation of the Python subprocess module for details.
+  warnings.warn(SyntaxWarning(
+.Roundtrip constructed a transpose sequence [rounds: 1; efficiency: 53]:
+  tiled_pf_transpose: Fix prefix () and permute (0,) with (1,) / latency=35,684; shape=(2048, 512); dtype_size=2
+
+Neuron NKI - Kernel call: tiled_pf_transpose(in_tensor = Tensor(shape: (2048, 512), dtype: bfloat16), in_shape = [2048, 512], permutation = [1, 0])
+
+Compiler status PASS
+2026-10-27 22:26:45.000286:  4350  [INFO]: Compilation Successfully Completed for model.MODULE_4e77ed663c6a6ca8f276+443ac94d.hlo_module.pb
+INFO:Neuron:Finished Compilation for all HLOs in 5.109089612960815 seconds
+..Roundtrip rolls back... [rounds: 2; efficiency: 30]
+  dve_j_optimized   : Fix prefix (0, 1, 2) and permute (3, 4) with (5,) / latency=45,489; shape=(8, 2, 128, 2, 8, 64); dtype_size=2
+  tiled_pf_transpose: Fix prefix (0,) and permute (1, 2) with (5, 3, 4) / latency=60,475; shape=(8, 2, 128, 2, 8, 64); dtype_size=2
+
+Roundtrip rolls back... [rounds: 2; efficiency: 25]
+  dve_j_optimized   : Fix prefix (0, 1) and permute (2,) with (3,) / latency=11,372; shape=(2, 64, 16, 128); dtype_size=2
+  tiled_pf_transpose: Fix prefix () and permute (0, 1) with (3, 2) / latency=15,119; shape=(2, 64, 16, 128); dtype_size=2
+
+Roundtrip rolls back... [rounds: 1; efficiency: 24]
+  tiled_pf_transpose: Fix prefix () and permute (0,) with (1,) / latency=15,119; shape=(16, 128); dtype_size=2
+
+Roundtrip rolls back... [rounds: 2; efficiency: 25]
+  dve_j_optimized   : Fix prefix (0, 1, 2) and permute (3,) with (4,) / latency=11,372; shape=(2, 2, 32, 16, 128); dtype_size=2
+  tiled_pf_transpose: Fix prefix () and permute (0, 1, 2) with (4, 3) / latency=15,119; shape=(2, 2, 32, 16, 128); dtype_size=2
+
+Roundtrip rolls back... [rounds: 2; efficiency: 30]
+  dve_j_optimized   : Fix prefix (0, 1, 2, 3, 4) and permute (5,) with (6,) / latency=45,489; shape=(2, 2, 4, 2, 32, 16, 128); dtype_size=2
+  tiled_pf_transpose: Fix prefix (0, 1) and permute (2, 3, 4) with (6, 5) / latency=60,475; shape=(2, 2, 4, 2, 32, 16, 128); dtype_size=2
+
+Roundtrip rolls back... [rounds: 2; efficiency: 27]
+  tiled_pf_transpose: Fix prefix (0,) and permute (1, 2) with (3,) / latency=166,306; shape=(16, 128, 22, 128); dtype_size=2
+  dve_j_optimized   : Fix prefix (0, 3) and permute (1,) with (2,) / latency=138,266; shape=(16, 128, 22, 128); dtype_size=2
+
+Roundtrip rolls back... [rounds: 2; efficiency: 29]
+  dve_j_optimized   : Fix prefix (0, 1, 2) and permute (3,) with (4,) / latency=125,095; shape=(11, 2, 128, 16, 128); dtype_size=2
+  tiled_pf_transpose: Fix prefix (0,) and permute (1, 2) with (4, 3) / latency=166,306; shape=(11, 2, 128, 16, 128); dtype_size=2
+
+Roundtrip rolls back... [rounds: 2; efficiency: 28]
+  dve_j_optimized   : Fix prefix (0, 1) and permute (2,) with (3,) / latency=716,453; shape=(125, 128, 16, 128); dtype_size=2
+  tiled_pf_transpose: Fix prefix (0,) and permute (1,) with (3, 2) / latency=952,478; shape=(125, 128, 16, 128); dtype_size=2
+
+
+Compiler status PASS
+INFO:Neuron:Done preparing weight layout transformation
+INFO:Neuron:Finished building model in 97.28275156021118 seconds
+INFO:Neuron:SKIPPING pre-sharding the checkpoints. The checkpoints will be sharded during load time.
+INFO:Neuron:Sharding weights on load...
+INFO:Neuron:Sharding weights for ranks: 0...1
+Compiling and tracing time: 97.58048594899998 seconds
+
+Loading model to Neuron...
+[2026-10-27 22:27:15.959: I neuronx_distributed/parallel_layers/parallel_state.py:638] > initializing tensor model parallel with size 2
+[2026-10-27 22:27:15.959: I neuronx_distributed/parallel_layers/parallel_state.py:639] > initializing pipeline model parallel with size 1
+[2026-10-27 22:27:15.959: I neuronx_distributed/parallel_layers/parallel_state.py:640] > initializing context model parallel with size 1
+[2026-10-27 22:27:15.959: I neuronx_distributed/parallel_layers/parallel_state.py:641] > initializing data parallel with size 1
+[2026-10-27 22:27:15.959: I neuronx_distributed/parallel_layers/parallel_state.py:642] > initializing world size to 2
+[2026-10-27 22:27:15.959: I neuronx_distributed/parallel_layers/parallel_state.py:387] [rank_0_pp-1_tp-1_dp-1_cp-1] Chosen Logic for replica groups ret_logic=<PG_Group_Logic.LOGIC1: (<function ascending_ring_PG_group at 0x72b1610f60c0>, 'Ascending Ring PG Group')>
+[2026-10-27 22:27:15.959: I neuronx_distributed/parallel_layers/parallel_state.py:666] [rank_0_pp-1_tp-1_dp-1_cp-1] tp_groups: replica_groups.tp_groups=[[0, 1]]
+[2026-10-27 22:27:15.959: I neuronx_distributed/parallel_layers/parallel_state.py:667] [rank_0_pp-1_tp-1_dp-1_cp-1] dp_groups: replica_groups.dp_groups=[[0], [1]]
+[2026-10-27 22:27:15.959: I neuronx_distributed/parallel_layers/parallel_state.py:668] [rank_0_pp-1_tp-1_dp-1_cp-1] pp_groups: replica_groups.pp_groups=[[0], [1]]
+[2026-10-27 22:27:15.959: I neuronx_distributed/parallel_layers/parallel_state.py:669] [rank_0_pp-1_tp-1_dp-1_cp-1] cp_groups: replica_groups.cp_groups=[[0], [1]]
+[2026-10-27 22:27:15.959: I neuronx_distributed/parallel_layers/parallel_state.py:670] [rank_0_pp-1_tp-1_dp-1_cp-1] ep_model_groups: replica_groups.ep_model_groups=[[0], [1]]
+[2026-10-27 22:27:15.959: I neuronx_distributed/parallel_layers/parallel_state.py:671] [rank_0_pp-1_tp-1_dp-1_cp-1] ep_data_groups: replica_groups.ep_data_groups=[[0], [1]]
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+WARNING:Neuron:TP degree (2) and KV heads (4) are not divisible. Overriding attention sharding strategy to GQA.CONVERT_TO_MHA!
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/trace/trace.py:642: UserWarning: Removing redundant keys from checkpoint: ['layers.0.self_attn.k_proj.weight', 'layers.0.self_attn.o_proj.weight', 'layers.0.self_attn.q_proj.weight', 'layers.0.self_attn.v_proj.weight', 'layers.1.self_attn.k_proj.weight', 'layers.1.self_attn.o_proj.weight', 'layers.1.self_attn.q_proj.weight', 'layers.1.self_attn.v_proj.weight', 'layers.10.self_attn.k_proj.weight', 'layers.10.self_attn.o_proj.weight', 'layers.10.self_attn.q_proj.weight', 'layers.10.self_attn.v_proj.weight', 'layers.11.self_attn.k_proj.weight', 'layers.11.self_attn.o_proj.weight', 'layers.11.self_attn.q_proj.weight', 'layers.11.self_attn.v_proj.weight', 'layers.12.self_attn.k_proj.weight', 'layers.12.self_attn.o_proj.weight', 'layers.12.self_attn.q_proj.weight', 'layers.12.self_attn.v_proj.weight', 'layers.13.self_attn.k_proj.weight', 'layers.13.self_attn.o_proj.weight', 'layers.13.self_attn.q_proj.weight', 'layers.13.self_attn.v_proj.weight', 'layers.14.self_attn.k_proj.weight', 'layers.14.self_attn.o_proj.weight', 'layers.14.self_attn.q_proj.weight', 'layers.14.self_attn.v_proj.weight', 'layers.15.self_attn.k_proj.weight', 'layers.15.self_attn.o_proj.weight', 'layers.15.self_attn.q_proj.weight', 'layers.15.self_attn.v_proj.weight', 'layers.16.self_attn.k_proj.weight', 'layers.16.self_attn.o_proj.weight', 'layers.16.self_attn.q_proj.weight', 'layers.16.self_attn.v_proj.weight', 'layers.17.self_attn.k_proj.weight', 'layers.17.self_attn.o_proj.weight', 'layers.17.self_attn.q_proj.weight', 'layers.17.self_attn.v_proj.weight', 'layers.18.self_attn.k_proj.weight', 'layers.18.self_attn.o_proj.weight', 'layers.18.self_attn.q_proj.weight', 'layers.18.self_attn.v_proj.weight', 'layers.19.self_attn.k_proj.weight', 'layers.19.self_attn.o_proj.weight', 'layers.19.self_attn.q_proj.weight', 'layers.19.self_attn.v_proj.weight', 'layers.2.self_attn.k_proj.weight', 'layers.2.self_attn.o_proj.weight', 'layers.2.self_attn.q_proj.weight', 'layers.2.self_attn.v_proj.weight', 'layers.20.self_attn.k_proj.weight', 'layers.20.self_attn.o_proj.weight', 'layers.20.self_attn.q_proj.weight', 'layers.20.self_attn.v_proj.weight', 'layers.21.self_attn.k_proj.weight', 'layers.21.self_attn.o_proj.weight', 'layers.21.self_attn.q_proj.weight', 'layers.21.self_attn.v_proj.weight', 'layers.3.self_attn.k_proj.weight', 'layers.3.self_attn.o_proj.weight', 'layers.3.self_attn.q_proj.weight', 'layers.3.self_attn.v_proj.weight', 'layers.4.self_attn.k_proj.weight', 'layers.4.self_attn.o_proj.weight', 'layers.4.self_attn.q_proj.weight', 'layers.4.self_attn.v_proj.weight', 'layers.5.self_attn.k_proj.weight', 'layers.5.self_attn.o_proj.weight', 'layers.5.self_attn.q_proj.weight', 'layers.5.self_attn.v_proj.weight', 'layers.6.self_attn.k_proj.weight', 'layers.6.self_attn.o_proj.weight', 'layers.6.self_attn.q_proj.weight', 'layers.6.self_attn.v_proj.weight', 'layers.7.self_attn.k_proj.weight', 'layers.7.self_attn.o_proj.weight', 'layers.7.self_attn.q_proj.weight', 'layers.7.self_attn.v_proj.weight', 'layers.8.self_attn.k_proj.weight', 'layers.8.self_attn.o_proj.weight', 'layers.8.self_attn.q_proj.weight', 'layers.8.self_attn.v_proj.weight', 'layers.9.self_attn.k_proj.weight', 'layers.9.self_attn.o_proj.weight', 'layers.9.self_attn.q_proj.weight', 'layers.9.self_attn.v_proj.weight']
+  warnings.warn(f"Removing redundant keys from checkpoint: {keys_to_delete}")
+INFO:Neuron:Done Sharding weights in 0.600641956000004
+INFO:Neuron:Finished weights loading in 7.634864521000054 seconds
+INFO:Neuron:Warming up the model.
+2026-Oct-27 22:27:23.0714 4350:4579 [1] int nccl_net_ofi_create_plugin(nccl_net_ofi_plugin_t**):213 CCOM WARN NET/OFI Failed to initialize sendrecv protocol
+2026-Oct-27 22:27:23.0720 4350:4579 [1] int nccl_net_ofi_create_plugin(nccl_net_ofi_plugin_t**):354 CCOM WARN NET/OFI aws-ofi-nccl initialization failed
+2026-Oct-27 22:27:23.0725 4350:4579 [1] ncclResult_t nccl_net_ofi_init_no_atexit_fini_v6(ncclDebugLogger_t):183 CCOM WARN NET/OFI Initializing plugin failed
+2026-Oct-27 22:27:23.0730 4350:4579 [1] net_plugin.cc:97 CCOM WARN OFI plugin initNet() failed is EFA enabled?
+INFO:Neuron:Warmup completed in 0.2053205966949463 seconds.
+The following generation flags are not valid and may be ignored: ['top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Total model loading time: 7.920579975999999 seconds
+
+Skipping accuracy check
+
+Generating outputs...
+Prompts: ['Explain how a systolic array computes a matrix multiply, step by step.']
+Generated outputs:
+Output 0: Explain how a systolic array computes a matrix multiply, step by step.
+Starting end-to-end benchmark with 20
+Benchmark completed and its result is as following
+{
+    "e2e_model": {
+        "latency_ms_p50": 2740.3883934020996,
+        "latency_ms_p90": 2759.4807386398315,
+        "latency_ms_p95": 2759.8463773727417,
+        "latency_ms_p99": 2762.628493309021,
+        "latency_ms_p100": 2763.324022293091,
+        "latency_ms_avg": 2742.0862197875977,
+        "throughput": 373.4382940297622
+    },
+    "context_encoding_model": {
+        "latency_ms_p50": 17.50969886779785,
+        "latency_ms_p90": 17.542338371276855,
+        "latency_ms_p95": 17.570030689239502,
+        "latency_ms_p99": 17.57021188735962,
+        "latency_ms_p100": 17.57025718688965,
+        "latency_ms_avg": 17.515385150909424,
+        "throughput": 29231.443989880874
+    },
+    "token_generation_model": {
+        "latency_ms_p50": 4.921317100524902,
+        "latency_ms_p90": 4.956722259521484,
+        "latency_ms_p95": 4.9648284912109375,
+        "latency_ms_p99": 4.978134632110595,
+        "latency_ms_p100": 5.206823348999023,
+        "latency_ms_avg": 4.925184053917453,
+        "throughput": 203.43543229932246
+    }
+}
+Completed saving result to ./benchmark_report.json

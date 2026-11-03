@@ -1,0 +1,22 @@
+NXDI_VENV=/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13 VLLM_VENV=/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13
+== inventory (59 min left)
+inventory rc=0 60s
+== model (58 min left)
+model rc=0 9s
+== bench_tp1_b1 (54 min left)
+bench_tp1_b1 rc=0 295s
+== bench_tp1_b4 (49 min left)
+bench_tp1_b4 rc=0 273s
+== bench_tp2_b1 (44 min left)
+bench_tp2_b1 rc=0 158s
+== bench_tp2_b4 (42 min left)
+bench_tp2_b4 rc=0 189s
+== profile_tp1 (38 min left)
+profile_tp1 rc=0 59s
+== profile_tp2 (37 min left)
+profile_tp2 rc=0 58s
+== vllm_tp2 (36 min left)
+vllm_tp2 rc=0 338s
+== roofline (31 min left)
+roofline rc=0 0s
+done with 31 min left

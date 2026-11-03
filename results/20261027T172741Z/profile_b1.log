@@ -1,0 +1,31 @@
+On-device RNG not available - CPU RNG will be used
+Traceback (most recent call last):
+  File "/opt/aws_neuronx_venv_torch_neuronx_2_14_0/bin/inference_demo", line 5, in <module>
+    from neuronx_distributed_inference.inference_demo import main
+  File "/opt/aws_neuronx_venv_torch_neuronx_2_14_0/lib/python3.12/site-packages/neuronx_distributed_inference/inference_demo.py", line 13, in <module>
+    from neuronx_distributed.quantization.quantization_config import (
+  File "/opt/aws_neuronx_venv_torch_neuronx_2_14_0/lib/python3.12/site-packages/neuronx_distributed/__init__.py", line 1, in <module>
+    from . import kernels, parallel_layers, pipeline, trace, utils
+  File "/opt/aws_neuronx_venv_torch_neuronx_2_14_0/lib/python3.12/site-packages/neuronx_distributed/kernels/__init__.py", line 1, in <module>
+    from .flash_attn import nki_flash_attn_func
+  File "/opt/aws_neuronx_venv_torch_neuronx_2_14_0/lib/python3.12/site-packages/neuronx_distributed/kernels/flash_attn.py", line 4, in <module>
+    import torch_xla.core.xla_model as xm
+  File "/opt/aws_neuronx_venv_torch_neuronx_2_14_0/lib/python3.12/site-packages/torch_xla/__init__.py", line 10, in <module>
+    import _XLAC
+ImportError: /opt/aws_neuronx_venv_torch_neuronx_2_14_0/lib/python3.12/site-packages/_XLAC.cpython-312-x86_64-linux-gnu.so: undefined symbol: _ZN5torch8autograd13_wrap_outputsERKSt6vectorIN2at6TensorESaIS3_EERKSt13unordered_setIPN3c1010TensorImplESt4hashISB_ESt8equal_toISB_ESaISB_EESJ_NS9_8ArrayRefISt8optionalIS3_EEERKNS9_13intrusive_ptrINS0_4NodeENS9_6detail34intrusive_target_default_null_typeISP_EEEERKSt8functionIFS5_S5_S5_EESJ_RKSW_IFS3_S3_EEb
+On-device RNG not available - CPU RNG will be used
+Traceback (most recent call last):
+  File "/opt/aws_neuronx_venv_torch_neuronx_2_14_0/bin/inference_demo", line 5, in <module>
+    from neuronx_distributed_inference.inference_demo import main
+  File "/opt/aws_neuronx_venv_torch_neuronx_2_14_0/lib/python3.12/site-packages/neuronx_distributed_inference/inference_demo.py", line 13, in <module>
+    from neuronx_distributed.quantization.quantization_config import (
+  File "/opt/aws_neuronx_venv_torch_neuronx_2_14_0/lib/python3.12/site-packages/neuronx_distributed/__init__.py", line 1, in <module>
+    from . import kernels, parallel_layers, pipeline, trace, utils
+  File "/opt/aws_neuronx_venv_torch_neuronx_2_14_0/lib/python3.12/site-packages/neuronx_distributed/kernels/__init__.py", line 1, in <module>
+    from .flash_attn import nki_flash_attn_func
+  File "/opt/aws_neuronx_venv_torch_neuronx_2_14_0/lib/python3.12/site-packages/neuronx_distributed/kernels/flash_attn.py", line 4, in <module>
+    import torch_xla.core.xla_model as xm
+  File "/opt/aws_neuronx_venv_torch_neuronx_2_14_0/lib/python3.12/site-packages/torch_xla/__init__.py", line 10, in <module>
+    import _XLAC
+ImportError: /opt/aws_neuronx_venv_torch_neuronx_2_14_0/lib/python3.12/site-packages/_XLAC.cpython-312-x86_64-linux-gnu.so: undefined symbol: _ZN5torch8autograd13_wrap_outputsERKSt6vectorIN2at6TensorESaIS3_EERKSt13unordered_setIPN3c1010TensorImplESt4hashISB_ESt8equal_toISB_ESaISB_EESJ_NS9_8ArrayRefISt8optionalIS3_EEERKNS9_13intrusive_ptrINS0_4NodeENS9_6detail34intrusive_target_default_null_typeISP_EEEERKSt8functionIFS5_S5_S5_EESJ_RKSW_IFS3_S3_EEb
+4.0K	/home/ubuntu/profiles/20261027T172741Z

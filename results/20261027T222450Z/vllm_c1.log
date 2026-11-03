@@ -1,0 +1,21 @@
+vLLM server not healthy; last log lines:
+[0;36m(APIServer pid=5064)[0;0m     async with build_async_engine_client(
+[0;36m(APIServer pid=5064)[0;0m   File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+[0;36m(APIServer pid=5064)[0;0m     return await anext(self.gen)
+[0;36m(APIServer pid=5064)[0;0m            ^^^^^^^^^^^^^^^^^^^^^
+[0;36m(APIServer pid=5064)[0;0m   File "/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/vllm/entrypoints/openai/api_server.py", line 172, in build_async_engine_client
+[0;36m(APIServer pid=5064)[0;0m     async with build_async_engine_client_from_engine_args(
+[0;36m(APIServer pid=5064)[0;0m   File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+[0;36m(APIServer pid=5064)[0;0m     return await anext(self.gen)
+[0;36m(APIServer pid=5064)[0;0m            ^^^^^^^^^^^^^^^^^^^^^
+[0;36m(APIServer pid=5064)[0;0m   File "/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/vllm/entrypoints/openai/api_server.py", line 198, in build_async_engine_client_from_engine_args
+[0;36m(APIServer pid=5064)[0;0m     vllm_config = engine_args.create_engine_config(usage_context=usage_context)
+[0;36m(APIServer pid=5064)[0;0m                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(APIServer pid=5064)[0;0m   File "/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/vllm/engine/arg_utils.py", line 1699, in create_engine_config
+[0;36m(APIServer pid=5064)[0;0m     config = VllmConfig(
+[0;36m(APIServer pid=5064)[0;0m              ^^^^^^^^^^^
+[0;36m(APIServer pid=5064)[0;0m   File "/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/pydantic/_internal/_dataclasses.py", line 121, in __init__
+[0;36m(APIServer pid=5064)[0;0m     s.__pydantic_validator__.validate_python(ArgsKwargs(args, kwargs), self_instance=s)
+[0;36m(APIServer pid=5064)[0;0m pydantic_core._pydantic_core.ValidationError: 1 validation error for VllmConfig
+[0;36m(APIServer pid=5064)[0;0m   Assertion failed, When prefix caching is enabled, block_size must be set. [type=assertion_error, input_value=ArgsKwargs((), {'model_co...timizationLevel.O2: 2>}), input_type=ArgsKwargs]
+[0;36m(APIServer pid=5064)[0;0m     For further information visit https://errors.pydantic.dev/2.12/v/assertion_error

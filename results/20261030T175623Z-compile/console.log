@@ -1,0 +1,12 @@
+NXDI_VENV=/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13 VLLM_VENV=/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13 MODE=compile BUCKET=neuron-lab-<aws-account-id>-us-east-1
+== inventory (119 min left)
+inventory rc=0 52s
+== swap (119 min left)
+swap rc=0 1s
+== model (119 min left)
+model rc=0 48s
+== compile_tp2_b1 (113 min left)
+compile_tp2_b1 rc=0 395s
+== compile_tp2_b16 (106 min left)
+compile_tp2_b16 rc=0 582s
+done with 97 min left

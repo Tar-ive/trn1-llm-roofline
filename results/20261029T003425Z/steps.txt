@@ -1,0 +1,10 @@
+inventory rc=0 60s
+model rc=0 9s
+bench_tp1_b1 rc=0 295s
+bench_tp1_b4 rc=0 273s
+bench_tp2_b1 rc=0 158s
+bench_tp2_b4 rc=0 189s
+profile_tp1 rc=0 59s
+profile_tp2 rc=0 58s
+vllm_tp2 rc=0 338s
+roofline rc=0 0s

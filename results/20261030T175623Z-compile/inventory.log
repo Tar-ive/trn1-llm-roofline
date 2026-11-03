@@ -1,0 +1,58 @@
++ uname -a
+Linux ip-10-42-2-110 6.17.0-1007-aws #7~24.04.1-Ubuntu SMP Thu Jan 22 21:04:49 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
++ lsb_release -ds
+Ubuntu 24.04.4 LTS
+++ curl -s -X PUT http://169.254.169.254/latest/api/token -H 'X-aws-ec2-metadata-token-ttl-seconds: 60'
++ TOKEN=AQAEAAviu5wgCRo1d5-mSNHvgoZsR463CiU2MxlcJ0UBSkIC4wdljA==
++ curl -s -H 'X-aws-ec2-metadata-token: AQAEAAviu5wgCRo1d5-mSNHvgoZsR463CiU2MxlcJ0UBSkIC4wdljA==' http://169.254.169.254/latest/meta-data/instance-type
+m7i.4xlarge+ echo
+
++ curl -s -H 'X-aws-ec2-metadata-token: AQAEAAviu5wgCRo1d5-mSNHvgoZsR463CiU2MxlcJ0UBSkIC4wdljA==' http://169.254.169.254/latest/meta-data/ami-id
+ami-00c45d97f3070117d+ echo
+
++ nproc
+16
++ free -g
+               total        used        free      shared  buff/cache   available
+Mem:              61           1          60           0           0          60
+Swap:              0           0           0
++ neuron-ls
+time="2026-10-30T17:56:29Z" level=fatal msg="Failed to load MLA system information" error="failed to discover Neuron devices: Unable to read device information from the driver: no neuron device found. To make sure aws-neuronx-dkms is installed and the neuron driver is accessible, please follow the steps in the troubleshooting guide: https://awsdocs-neuron.readthedocs-hosted.com/en/latest/neuron-runtime/nrt-troubleshoot.html#neuron-driver-installation-fails."
++ modinfo neuron
++ grep -E '^(version|filename)'
+filename:       /lib/modules/6.17.0-1007-aws/updates/dkms/neuron.ko.zst
+version:        2.26.5.0
++ dpkg -l
++ grep -i neuron
+hi  aws-neuronx-collectives                2.30.59.0-f5cdefb39                     amd64        neuron_ccom built using CMake
+hi  aws-neuronx-dkms                       2.26.5.0                                all          aws-neuronx driver in DKMS format.
+hi  aws-neuronx-oci-hook                   2.14.102.0                              amd64        neuron_oci_hook built using CMake
+hi  aws-neuronx-runtime-lib                2.30.51.0-faafe26f0                     amd64        neuron_runtime built using CMake
+hi  aws-neuronx-tools                      2.28.23.0-f1c114a9d                     amd64        Neuron profile and debug tools
++ ls -d /opt/aws_neuronx_venv_pytorch_inference_vllm_0_13
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13
++ for v in /opt/aws_neuronx_venv_*
++ echo '## /opt/aws_neuronx_venv_pytorch_inference_vllm_0_13'
+## /opt/aws_neuronx_venv_pytorch_inference_vllm_0_13
++ /opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/bin/pip list
++ grep -iE 'neuron|torch|jax|vllm|transformers|nki'
+libneuronxla                      2.2.15515.0+50c26cbd
+neuronx-cc                        2.23.6484.0+3b612583
+neuronx-distributed               0.17.26814+4b18de63
+neuronx-distributed-inference     0.8.16251+f3ca5575
+nki                               0.2.0+g82fdb402
+torch                             2.9.0
+torch-neuronx                     2.9.0.2.12.22436+0f1dac25
+torch-xla                         2.9.0
+torchaudio                        2.9.0
+torchvision                       0.24.0
+transformers                      4.57.6
+vllm                              0.13.0
+vllm-neuron                       0.4.1                     /vllm
++ neuronx-cc --version
++ neuron-explorer --version
+neuron-explorer 2.28.23.0%kaena-tools/2.28@f1c114a built on 2026-02-19T00:00:38Z
+
++ env
++ grep -E '^NEURON'
+NEURON_PLATFORM_TARGET_OVERRIDE=trn1

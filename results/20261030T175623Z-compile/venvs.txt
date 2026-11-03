@@ -1,0 +1,1 @@
+NXDI_VENV=/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13 VLLM_VENV=/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13 MODE=compile BUCKET=neuron-lab-<aws-account-id>-us-east-1

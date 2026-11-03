@@ -1,0 +1,118 @@
+== concurrency 1
+INFO 10-29 01:01:27 [__init__.py:43] Available plugins for group vllm.platform_plugins:
+INFO 10-29 01:01:27 [__init__.py:45] - neuron -> vllm_neuron:register
+INFO 10-29 01:01:27 [__init__.py:48] All plugins in this group will be loaded. Set `VLLM_PLUGINS` to control which plugins to load.
+INFO 10-29 01:01:27 [__init__.py:217] Platform plugin neuron is activated
+INFO 10-29 01:01:29 [importing.py:44] Triton is installed but 0 active driver(s) found (expected 1). Disabling Triton to prevent runtime errors.
+INFO 10-29 01:01:29 [importing.py:68] Triton not installed or not compatible; certain GPU-related functions will not be available.
+WARNING 10-29 01:01:29 [interface.py:221] Failed to import from vllm._C: ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+[2026-10-29 01:01:30] INFO platform.py:108: Applying Neuron config overrides
+[2026-10-29 01:01:30] INFO platform.py:125: Neuron config overrides applied successfully
+Namespace(subparser='bench', bench_type='serve', dispatch_function=<function BenchmarkServingSubcommand.cmd at 0x7ac7044f8360>, seed=0, num_prompts=64, dataset_name='random', no_stream=False, dataset_path=None, no_oversample=False, skip_chat_template=False, disable_shuffle=False, custom_output_len=256, spec_bench_output_len=256, spec_bench_category=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, sharegpt_output_len=None, blazedit_min_distance=0.0, blazedit_max_distance=1.0, random_input_len=256, random_output_len=128, random_range_ratio=0.0, random_prefix_len=0, random_batch_size=1, no_reranker=False, random_mm_base_items_per_request=1, random_mm_num_mm_items_range_ratio=0.0, random_mm_limit_mm_per_prompt={'image': 255, 'video': 1}, random_mm_bucket_config={(256, 256, 1): 0.5, (720, 1280, 1): 0.5, (720, 1280, 16): 0.0}, hf_subset=None, hf_split=None, hf_name=None, hf_output_len=None, prefix_repetition_prefix_len=256, prefix_repetition_suffix_len=256, prefix_repetition_num_prefixes=10, prefix_repetition_output_len=128, label=None, backend='openai', base_url=None, host='127.0.0.1', port=8000, endpoint='/v1/completions', header=None, max_concurrency=1, model='/home/ubuntu/models/TinyLlama-1.1B-Chat-v1.0', tokenizer=None, tokenizer_mode='auto', use_beam_search=False, logprobs=None, request_rate=inf, burstiness=1.0, trust_remote_code=False, disable_tqdm=False, num_warmups=0, profile=False, save_result=True, save_detailed=False, append_result=False, metadata=None, result_dir='results/20261029T003425Z', result_filename='vllm_tp2_c1.json', ignore_eos=False, percentile_metrics='ttft,tpot,itl,e2el', metric_percentiles='50,90,99', goodput=None, request_id_prefix='bench-e8241a41-', top_p=None, top_k=None, min_p=None, temperature=None, frequency_penalty=None, presence_penalty=None, repetition_penalty=None, common_prefix_len=None, served_model_name=None, lora_modules=None, ramp_up_strategy=None, ramp_up_start_rps=None, ramp_up_end_rps=None, ready_check_timeout_sec=600, extra_body=None)
+INFO 10-29 01:01:31 [datasets.py:612] Sampling input_len from [255, 255] and output_len from [128, 128]
+Starting initial single prompt test run...
+Waiting for endpoint to become up in 600 seconds
+ |          | 00:00 elapsed, ? remaining |          | 00:00 elapsed, 00:10 remaining |          | 00:01 elapsed, 301:54:43 remaining
+Initial test run completed.
+Starting main benchmark run...
+Traffic request rate: inf
+Burstiness factor: 1.0 (Poisson process)
+Maximum request concurrency: 1
+  0%|          | 0/64 [00:00<?, ?it/s]  2%|▏         | 1/64 [00:00<01:02,  1.00it/s]  3%|▎         | 2/64 [00:01<01:01,  1.00it/s]  5%|▍         | 3/64 [00:02<01:00,  1.00it/s]  6%|▋         | 4/64 [00:03<01:00,  1.00s/it]  8%|▊         | 5/64 [00:05<00:59,  1.00s/it]  9%|▉         | 6/64 [00:06<00:58,  1.00s/it] 11%|█         | 7/64 [00:07<00:57,  1.01s/it] 12%|█▎        | 8/64 [00:08<00:56,  1.00s/it] 14%|█▍        | 9/64 [00:09<00:55,  1.00s/it] 16%|█▌        | 10/64 [00:10<00:54,  1.00s/it] 17%|█▋        | 11/64 [00:11<00:52,  1.00it/s] 19%|█▉        | 12/64 [00:12<00:51,  1.00it/s] 20%|██        | 13/64 [00:13<00:51,  1.00s/it] 22%|██▏       | 14/64 [00:14<00:50,  1.00s/it] 23%|██▎       | 15/64 [00:15<00:49,  1.00s/it] 25%|██▌       | 16/64 [00:16<00:48,  1.00s/it] 27%|██▋       | 17/64 [00:17<00:47,  1.00s/it] 28%|██▊       | 18/64 [00:18<00:46,  1.00s/it] 30%|██▉       | 19/64 [00:19<00:45,  1.00s/it] 31%|███▏      | 20/64 [00:20<00:44,  1.00s/it] 33%|███▎      | 21/64 [00:21<00:43,  1.00s/it] 34%|███▍      | 22/64 [00:22<00:42,  1.00s/it] 36%|███▌      | 23/64 [00:23<00:40,  1.00it/s] 38%|███▊      | 24/64 [00:24<00:39,  1.00it/s] 39%|███▉      | 25/64 [00:25<00:38,  1.00it/s] 41%|████      | 26/64 [00:26<00:37,  1.00it/s] 42%|████▏     | 27/64 [00:26<00:36,  1.01it/s] 44%|████▍     | 28/64 [00:27<00:35,  1.01it/s] 45%|████▌     | 29/64 [00:28<00:34,  1.01it/s] 47%|████▋     | 30/64 [00:29<00:33,  1.01it/s] 48%|████▊     | 31/64 [00:30<00:32,  1.01it/s] 50%|█████     | 32/64 [00:31<00:31,  1.01it/s] 52%|█████▏    | 33/64 [00:32<00:30,  1.01it/s] 53%|█████▎    | 34/64 [00:33<00:29,  1.01it/s] 55%|█████▍    | 35/64 [00:34<00:28,  1.00it/s] 56%|█████▋    | 36/64 [00:35<00:27,  1.00it/s] 58%|█████▊    | 37/64 [00:36<00:26,  1.01it/s] 59%|█████▉    | 38/64 [00:37<00:25,  1.01it/s] 61%|██████    | 39/64 [00:38<00:24,  1.01it/s] 62%|██████▎   | 40/64 [00:39<00:23,  1.01it/s] 64%|██████▍   | 41/64 [00:40<00:22,  1.01it/s] 66%|██████▌   | 42/64 [00:41<00:21,  1.01it/s] 67%|██████▋   | 43/64 [00:42<00:20,  1.00it/s] 69%|██████▉   | 44/64 [00:43<00:19,  1.00it/s] 70%|███████   | 45/64 [00:44<00:18,  1.00it/s] 72%|███████▏  | 46/64 [00:45<00:17,  1.00it/s] 73%|███████▎  | 47/64 [00:46<00:16,  1.00it/s] 75%|███████▌  | 48/64 [00:47<00:15,  1.00it/s] 77%|███████▋  | 49/64 [00:48<00:14,  1.01it/s] 78%|███████▊  | 50/64 [00:49<00:13,  1.01it/s] 80%|███████▉  | 51/64 [00:50<00:12,  1.01it/s] 81%|████████▏ | 52/64 [00:51<00:11,  1.01it/s] 83%|████████▎ | 53/64 [00:52<00:10,  1.01it/s] 84%|████████▍ | 54/64 [00:53<00:09,  1.01it/s] 86%|████████▌ | 55/64 [00:54<00:08,  1.01it/s] 88%|████████▊ | 56/64 [00:55<00:07,  1.01it/s] 89%|████████▉ | 57/64 [00:56<00:06,  1.01it/s] 91%|█████████ | 58/64 [00:57<00:05,  1.01it/s] 92%|█████████▏| 59/64 [00:58<00:04,  1.01it/s] 94%|█████████▍| 60/64 [00:59<00:03,  1.01it/s] 95%|█████████▌| 61/64 [01:00<00:02,  1.01it/s] 97%|█████████▋| 62/64 [01:01<00:01,  1.01it/s] 98%|█████████▊| 63/64 [01:02<00:00,  1.01it/s]100%|██████████| 64/64 [01:03<00:00,  1.01it/s]100%|██████████| 64/64 [01:03<00:00,  1.00it/s]
+tip: install termplotlib and gnuplot to plot the metrics
+============ Serving Benchmark Result ============
+Successful requests:                     64        
+Failed requests:                         0         
+Maximum request concurrency:             1         
+Benchmark duration (s):                  63.75     
+Total input tokens:                      16320     
+Total generated tokens:                  8192      
+Request throughput (req/s):              1.00      
+Output token throughput (tok/s):         128.50    
+Peak output token throughput (tok/s):    130.00    
+Peak concurrent requests:                3.00      
+Total token throughput (tok/s):          384.48    
+---------------Time to First Token----------------
+Mean TTFT (ms):                          24.39     
+Median TTFT (ms):                        24.35     
+P50 TTFT (ms):                           24.35     
+P90 TTFT (ms):                           24.75     
+P99 TTFT (ms):                           25.04     
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          7.65      
+Median TPOT (ms):                        7.64      
+P50 TPOT (ms):                           7.64      
+P90 TPOT (ms):                           7.70      
+P99 TPOT (ms):                           7.76      
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           7.65      
+Median ITL (ms):                         7.64      
+P50 ITL (ms):                            7.64      
+P90 ITL (ms):                            7.74      
+P99 ITL (ms):                            7.86      
+----------------End-to-end Latency----------------
+Mean E2EL (ms):                          995.98    
+Median E2EL (ms):                        994.92    
+P50 E2EL (ms):                           994.92    
+P90 E2EL (ms):                           1002.79   
+P99 E2EL (ms):                           1010.04   
+==================================================
+== concurrency 4
+INFO 10-29 01:02:39 [__init__.py:43] Available plugins for group vllm.platform_plugins:
+INFO 10-29 01:02:39 [__init__.py:45] - neuron -> vllm_neuron:register
+INFO 10-29 01:02:39 [__init__.py:48] All plugins in this group will be loaded. Set `VLLM_PLUGINS` to control which plugins to load.
+INFO 10-29 01:02:39 [__init__.py:217] Platform plugin neuron is activated
+INFO 10-29 01:02:41 [importing.py:44] Triton is installed but 0 active driver(s) found (expected 1). Disabling Triton to prevent runtime errors.
+INFO 10-29 01:02:41 [importing.py:68] Triton not installed or not compatible; certain GPU-related functions will not be available.
+WARNING 10-29 01:02:41 [interface.py:221] Failed to import from vllm._C: ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+[2026-10-29 01:02:42] INFO platform.py:108: Applying Neuron config overrides
+[2026-10-29 01:02:42] INFO platform.py:125: Neuron config overrides applied successfully
+Namespace(subparser='bench', bench_type='serve', dispatch_function=<function BenchmarkServingSubcommand.cmd at 0x7b139e128360>, seed=0, num_prompts=64, dataset_name='random', no_stream=False, dataset_path=None, no_oversample=False, skip_chat_template=False, disable_shuffle=False, custom_output_len=256, spec_bench_output_len=256, spec_bench_category=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, sharegpt_output_len=None, blazedit_min_distance=0.0, blazedit_max_distance=1.0, random_input_len=256, random_output_len=128, random_range_ratio=0.0, random_prefix_len=0, random_batch_size=1, no_reranker=False, random_mm_base_items_per_request=1, random_mm_num_mm_items_range_ratio=0.0, random_mm_limit_mm_per_prompt={'image': 255, 'video': 1}, random_mm_bucket_config={(256, 256, 1): 0.5, (720, 1280, 1): 0.5, (720, 1280, 16): 0.0}, hf_subset=None, hf_split=None, hf_name=None, hf_output_len=None, prefix_repetition_prefix_len=256, prefix_repetition_suffix_len=256, prefix_repetition_num_prefixes=10, prefix_repetition_output_len=128, label=None, backend='openai', base_url=None, host='127.0.0.1', port=8000, endpoint='/v1/completions', header=None, max_concurrency=4, model='/home/ubuntu/models/TinyLlama-1.1B-Chat-v1.0', tokenizer=None, tokenizer_mode='auto', use_beam_search=False, logprobs=None, request_rate=inf, burstiness=1.0, trust_remote_code=False, disable_tqdm=False, num_warmups=0, profile=False, save_result=True, save_detailed=False, append_result=False, metadata=None, result_dir='results/20261029T003425Z', result_filename='vllm_tp2_c4.json', ignore_eos=False, percentile_metrics='ttft,tpot,itl,e2el', metric_percentiles='50,90,99', goodput=None, request_id_prefix='bench-43998f00-', top_p=None, top_k=None, min_p=None, temperature=None, frequency_penalty=None, presence_penalty=None, repetition_penalty=None, common_prefix_len=None, served_model_name=None, lora_modules=None, ramp_up_strategy=None, ramp_up_start_rps=None, ramp_up_end_rps=None, ready_check_timeout_sec=600, extra_body=None)
+INFO 10-29 01:02:42 [datasets.py:612] Sampling input_len from [255, 255] and output_len from [128, 128]
+Starting initial single prompt test run...
+Waiting for endpoint to become up in 600 seconds
+ |          | 00:00 elapsed, ? remaining |          | 00:00 elapsed, 00:09 remaining |          | 00:01 elapsed, 242:38:05 remaining
+Initial test run completed.
+Starting main benchmark run...
+Traffic request rate: inf
+Burstiness factor: 1.0 (Poisson process)
+Maximum request concurrency: 4
+  0%|          | 0/64 [00:00<?, ?it/s]  2%|▏         | 1/64 [00:01<01:05,  1.05s/it]  8%|▊         | 5/64 [00:02<00:22,  2.65it/s] 14%|█▍        | 9/64 [00:03<00:17,  3.19it/s] 20%|██        | 13/64 [00:04<00:14,  3.45it/s] 27%|██▋       | 17/64 [00:05<00:13,  3.59it/s] 33%|███▎      | 21/64 [00:06<00:11,  3.67it/s] 39%|███▉      | 25/64 [00:07<00:10,  3.72it/s] 45%|████▌     | 29/64 [00:08<00:09,  3.75it/s] 52%|█████▏    | 33/64 [00:09<00:08,  3.77it/s] 58%|█████▊    | 37/64 [00:10<00:07,  3.78it/s] 64%|██████▍   | 41/64 [00:11<00:06,  3.80it/s] 70%|███████   | 45/64 [00:12<00:04,  3.81it/s] 77%|███████▋  | 49/64 [00:13<00:03,  3.82it/s] 83%|████████▎ | 53/64 [00:14<00:02,  3.82it/s] 89%|████████▉ | 57/64 [00:15<00:01,  3.81it/s] 95%|█████████▌| 61/64 [00:16<00:00,  3.81it/s]100%|██████████| 64/64 [00:16<00:00,  3.82it/s]
+tip: install termplotlib and gnuplot to plot the metrics
+============ Serving Benchmark Result ============
+Successful requests:                     64        
+Failed requests:                         0         
+Maximum request concurrency:             4         
+Benchmark duration (s):                  16.73     
+Total input tokens:                      16320     
+Total generated tokens:                  8192      
+Request throughput (req/s):              3.82      
+Output token throughput (tok/s):         489.53    
+Peak output token throughput (tok/s):    492.00    
+Peak concurrent requests:                8.00      
+Total token throughput (tok/s):          1464.77   
+---------------Time to First Token----------------
+Mean TTFT (ms):                          55.56     
+Median TTFT (ms):                        55.27     
+P50 TTFT (ms):                           55.27     
+P90 TTFT (ms):                           84.20     
+P99 TTFT (ms):                           84.71     
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          7.80      
+Median TPOT (ms):                        7.81      
+P50 TPOT (ms):                           7.81      
+P90 TPOT (ms):                           8.02      
+P99 TPOT (ms):                           8.09      
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           7.80      
+Median ITL (ms):                         7.55      
+P50 ITL (ms):                            7.55      
+P90 ITL (ms):                            7.65      
+P99 ITL (ms):                            8.35      
+----------------End-to-end Latency----------------
+Mean E2EL (ms):                          1045.64   
+Median E2EL (ms):                        1045.68   
+P50 E2EL (ms):                           1045.68   
+P90 E2EL (ms):                           1053.28   
+P99 E2EL (ms):                           1056.26   
+==================================================

@@ -1,0 +1,2 @@
+variant tp2-b16-ctx1024-seq2048-949b2a9e8b: model=NousResearch/Meta-Llama-3.1-8B-Instruct type=llama tp=2 batch=16 ctx=1024 seq=2048 args=--torch-dtype bfloat16 --on-device-sampling --top-k 1 --pad-token-id 2 extra=--save-sharded-checkpoint sdk=cc2.23.6484.0+3b612583-nxdi0.8.16251+f3ca5575 target=trn1
+cache hit (s3) s3://neuron-lab-<aws-account-id>-us-east-1/compiled/Meta-Llama-3.1-8B-Instruct/tp2-b16-ctx1024-seq2048-949b2a9e8b: 16G in 89s

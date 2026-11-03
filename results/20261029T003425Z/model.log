@@ -1,0 +1,22 @@
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Downloading 'model.safetensors' to '/home/ubuntu/models/TinyLlama-1.1B-Chat-v1.0/.cache/huggingface/download/xGOKKLRSlIhH692hSVvI1-gpoa8=.6e6001da2106d4757498752a021df6c2bdc332c650aae4bae6b0c004dcf14933.incomplete'
+Downloading 'config.json' to '/home/ubuntu/models/TinyLlama-1.1B-Chat-v1.0/.cache/huggingface/download/8_PA_wEVGiVa2goH2H4KQOQpvVY=.4ea05f1bc289d48ba9b92eea2f58ad8acd3dce5d.incomplete'
+Downloading 'README.md' to '/home/ubuntu/models/TinyLlama-1.1B-Chat-v1.0/.cache/huggingface/download/Xn7B-BWUGOee2Y6hCZtEhtFu4BE=.9737c9ce5074907aa44d575918c5367cd877471f.incomplete'
+Download complete. Moving file to /home/ubuntu/models/TinyLlama-1.1B-Chat-v1.0/config.json
+Download complete. Moving file to /home/ubuntu/models/TinyLlama-1.1B-Chat-v1.0/README.md
+Downloading 'tokenizer.json' to '/home/ubuntu/models/TinyLlama-1.1B-Chat-v1.0/.cache/huggingface/download/HgM_lKo9sdSCfRtVg7MMFS7EKqo=.a6e931b92caff4c79c5c56282f1e89569a0ae558.incomplete'
+Downloading 'generation_config.json' to '/home/ubuntu/models/TinyLlama-1.1B-Chat-v1.0/.cache/huggingface/download/3EVKVggOldJcKSsGjSdoUCN1AyQ=.768e95e5b4dada726d7631277a4a87ecbb236f70.incomplete'
+Downloading 'eval_results.json' to '/home/ubuntu/models/TinyLlama-1.1B-Chat-v1.0/.cache/huggingface/download/RLVoini9Jc-CDj7HUawYS6bPkLo=.f1ffbab317a5c0582b8ee6756a3cdfeb0cf684bc.incomplete'
+Downloading '.gitattributes' to '/home/ubuntu/models/TinyLlama-1.1B-Chat-v1.0/.cache/huggingface/download/wPaCkH-WbT7GsmxMKKrNZTV4nSM=.a6344aac8c09253b3b630fb776ae94478aa0275b.incomplete'
+Downloading 'special_tokens_map.json' to '/home/ubuntu/models/TinyLlama-1.1B-Chat-v1.0/.cache/huggingface/download/ahkChHUJFxEmOdq5GDFEmerRzCY=.492d4b2966a1763442d426d880dbc29f94906e4c.incomplete'
+Download complete. Moving file to /home/ubuntu/models/TinyLlama-1.1B-Chat-v1.0/generation_config.json
+Download complete. Moving file to /home/ubuntu/models/TinyLlama-1.1B-Chat-v1.0/eval_results.json
+Download complete. Moving file to /home/ubuntu/models/TinyLlama-1.1B-Chat-v1.0/.gitattributes
+Download complete. Moving file to /home/ubuntu/models/TinyLlama-1.1B-Chat-v1.0/special_tokens_map.json
+Fetching 10 files:  10%|█         | 1/10 [00:01<00:10,  1.12s/it]Download complete. Moving file to /home/ubuntu/models/TinyLlama-1.1B-Chat-v1.0/tokenizer.json
+Downloading 'tokenizer.model' to '/home/ubuntu/models/TinyLlama-1.1B-Chat-v1.0/.cache/huggingface/download/7iVfz3cUOMr-hyjiqqRDHEwVBAM=.9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347.incomplete'
+Downloading 'tokenizer_config.json' to '/home/ubuntu/models/TinyLlama-1.1B-Chat-v1.0/.cache/huggingface/download/vzaExXFZNBay89bvlQv-ZcI6BTg=.fa96b85858f4053b0142a18e2b09dbe94e3fae46.incomplete'
+Download complete. Moving file to /home/ubuntu/models/TinyLlama-1.1B-Chat-v1.0/tokenizer_config.json
+Download complete. Moving file to /home/ubuntu/models/TinyLlama-1.1B-Chat-v1.0/tokenizer.model
+Download complete. Moving file to /home/ubuntu/models/TinyLlama-1.1B-Chat-v1.0/model.safetensors
+Fetching 10 files:  60%|██████    | 6/10 [00:06<00:04,  1.14s/it]Fetching 10 files: 100%|██████████| 10/10 [00:06<00:00,  1.46it/s]
+/home/ubuntu/models/TinyLlama-1.1B-Chat-v1.0

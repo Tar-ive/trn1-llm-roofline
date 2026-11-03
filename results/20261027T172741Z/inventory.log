@@ -1,0 +1,125 @@
++ uname -a
+Linux ip-10-42-6-36 7.0.0-1014-aws #14~24.04.1-Ubuntu SMP PREEMPT Fri Sep 18 21:24:59 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
++ lsb_release -ds
+Ubuntu 24.04.5 LTS
+++ curl -s -X PUT http://169.254.169.254/latest/api/token -H 'X-aws-ec2-metadata-token-ttl-seconds: 60'
++ TOKEN=AQAEAJwN2dRYuXI3AuosQpJMOxzWP5IL4Sec1j4DfFCsoL7cEvqEfA==
++ curl -s -H 'X-aws-ec2-metadata-token: AQAEAJwN2dRYuXI3AuosQpJMOxzWP5IL4Sec1j4DfFCsoL7cEvqEfA==' http://169.254.169.254/latest/meta-data/instance-type
+trn1.2xlarge+ echo
+
++ curl -s -H 'X-aws-ec2-metadata-token: AQAEAJwN2dRYuXI3AuosQpJMOxzWP5IL4Sec1j4DfFCsoL7cEvqEfA==' http://169.254.169.254/latest/meta-data/ami-id
+ami-091af6c736073d840+ echo
+
++ nproc
+8
++ free -g
+               total        used        free      shared  buff/cache   available
+Mem:              30           0          28           0           2          29
+Swap:              0           0           0
++ neuron-ls
+instance-type: trn1.2xlarge
+instance-id: i-076678c12cd22ad43
++--------+--------+----------+--------+--------------+----------+------+
+| NEURON | NEURON |  NEURON  | NEURON |     PCI      |   CPU    | NUMA |
+| DEVICE | CORES  | CORE IDS | MEMORY |     BDF      | AFFINITY | NODE |
++--------+--------+----------+--------+--------------+----------+------+
+| 0      | 2      | 0-1      | 32 GB  | 0000:00:1e.0 | 0-7      | -1   |
++--------+--------+----------+--------+--------------+----------+------+
++ modinfo neuron
++ grep -E '^(version|filename)'
+filename:       /lib/modules/7.0.0-1014-aws/updates/dkms/neuron.ko.zst
+version:        2.31.7.0
++ dpkg -l
++ grep -i neuron
+hi  aws-neuronx-collectives                2.35.43.0-354ad3064                              amd64        AWS Neuron Collectives Library
+hi  aws-neuronx-dkms                       2.31.7.0                                         all          aws-neuronx driver in DKMS format.
+hi  aws-neuronx-oci-hook                   2.19.65.0                                        amd64        Neuron oci hook package
+hi  aws-neuronx-runtime-lib                2.35.30.0-d2725ccb8                              amd64        neuron_runtime built using CMake
+hi  aws-neuronx-tools                      2.33.38.0-f874d5618                              amd64        Neuron profile and debug tools
++ ls -d /opt/aws_neuronx_venv_jax_0_10 /opt/aws_neuronx_venv_pytorch_inference_vllm_0_29_0_1_2_0 /opt/aws_neuronx_venv_pytorch_inference_vllm_omni_0_29_0_0_2_0 /opt/aws_neuronx_venv_torch_neuronx_2_14_0
+/opt/aws_neuronx_venv_jax_0_10
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_29_0_1_2_0
+/opt/aws_neuronx_venv_pytorch_inference_vllm_omni_0_29_0_0_2_0
+/opt/aws_neuronx_venv_torch_neuronx_2_14_0
++ for v in /opt/aws_neuronx_venv_*
++ echo '## /opt/aws_neuronx_venv_jax_0_10'
+## /opt/aws_neuronx_venv_jax_0_10
++ /opt/aws_neuronx_venv_jax_0_10/bin/pip list
++ grep -iE 'neuron|torch|jax|vllm|transformers|nki'
+jax                        0.10.0
+jax_neuronx                0.10.0.1.0.14198+40d442c2
+jaxlib                     0.10.0
+libneuronxla               3.0.10135.0+7d133f20
+neuron-agentic-development 1.4
+neuronx-cc                 2.28.7631.0+8f7b0cf5
+nki                        0.7.0+37713544100.gfede04bb
++ for v in /opt/aws_neuronx_venv_*
++ echo '## /opt/aws_neuronx_venv_pytorch_inference_vllm_0_29_0_1_2_0'
+## /opt/aws_neuronx_venv_pytorch_inference_vllm_0_29_0_1_2_0
++ /opt/aws_neuronx_venv_pytorch_inference_vllm_0_29_0_1_2_0/bin/pip list
++ grep -iE 'neuron|torch|jax|vllm|transformers|nki'
+libtorch-neuronx-lite                    2.13.0.1.0.3112+653bc48f
+neuron-agentic-development               1.4
+neuronx-cc                               2.28.7631.0+8f7b0cf5
+nki                                      0.7.0+37713544100.gfede04bb
+torch                                    2.13.0
+torch_c_dlpack_ext                       0.1.5
+torch-xla                                2.13.0
+torchaudio                               2.11.0
+torchcodec                               0.17.0
+torchvision                              0.28.0
+transformers                             5.17.0
+vllm                                     0.29.0
+vllm-neuron                              0.29.0.1.2.0
++ for v in /opt/aws_neuronx_venv_*
++ echo '## /opt/aws_neuronx_venv_pytorch_inference_vllm_omni_0_29_0_0_2_0'
+## /opt/aws_neuronx_venv_pytorch_inference_vllm_omni_0_29_0_0_2_0
++ /opt/aws_neuronx_venv_pytorch_inference_vllm_omni_0_29_0_0_2_0/bin/pip list
++ grep -iE 'neuron|torch|jax|vllm|transformers|nki'
+libtorch-neuronx-lite                    2.13.0.1.0.3112+653bc48f
+neuron-agentic-development               1.4
+neuronx-cc                               2.28.7631.0+8f7b0cf5
+nki                                      0.7.0+37713544100.gfede04bb
+torch                                    2.13.0
+torch_c_dlpack_ext                       0.1.5
+torch-einops-utils                       0.1.36
+torch-xla                                2.13.0
+torchaudio                               2.11.0
+torchcodec                               0.17.0
+torchsde                                 0.2.6
+torchvision                              0.28.0
+transformers                             5.14.1
+vllm                                     0.29.0
+vllm-neuron                              0.29.0.1.2.0
+vllm-omni                                0.29.0rc1
+vllm-omni-neuron                         0.29.0.0.2.0
+x-transformers                           2.31.8
++ for v in /opt/aws_neuronx_venv_*
++ echo '## /opt/aws_neuronx_venv_torch_neuronx_2_14_0'
+## /opt/aws_neuronx_venv_torch_neuronx_2_14_0
++ /opt/aws_neuronx_venv_torch_neuronx_2_14_0/bin/pip list
++ grep -iE 'neuron|torch|jax|vllm|transformers|nki'
+neuron-agentic-development               1.4
+neuronx-cc                               2.28.7631.0+8f7b0cf5
+neuronx-distributed                      0.19.28492+435aae2b
+neuronx-distributed-inference            0.8.16251+f3ca5575
+nki                                      0.7.0+37713544100.gfede04bb
+torch                                    2.14.0
+torch-neuronx                            2.14.3.0.1+b1b6c66          /source-repos/aws_neuronx_venv_torch_neuronx_2_14_0/torch-neuronx
+torch-xla                                2.13.0
+torchdata                                0.11.0
+torchtitan-neuron                        0.2.2+neuron.1              /source-repos/aws_neuronx_venv_torch_neuronx_2_14_0/torchtitan-neuron
+torchvision                              0.29.1
+transformers                             4.57.6
++ neuronx-cc --version
++ ls /opt/aws_neuronx_venv_jax_0_10/bin/neuronx-cc /opt/aws_neuronx_venv_pytorch_inference_vllm_0_29_0_1_2_0/bin/neuronx-cc /opt/aws_neuronx_venv_pytorch_inference_vllm_omni_0_29_0_0_2_0/bin/neuronx-cc /opt/aws_neuronx_venv_torch_neuronx_2_14_0/bin/neuronx-cc
+/opt/aws_neuronx_venv_jax_0_10/bin/neuronx-cc
+/opt/aws_neuronx_venv_pytorch_inference_vllm_0_29_0_1_2_0/bin/neuronx-cc
+/opt/aws_neuronx_venv_pytorch_inference_vllm_omni_0_29_0_0_2_0/bin/neuronx-cc
+/opt/aws_neuronx_venv_torch_neuronx_2_14_0/bin/neuronx-cc
++ neuron-explorer --version
+neuron-explorer 2.33.0.1039-60059b2 built on 2026-10-14T14:07:43Z (commit 60059b26)
+
++ env
++ grep -E '^NEURON'
++ true

@@ -1,0 +1,5 @@
+Setting up swapspace version 1, size = 32 GiB (34359734272 bytes)
+no label, UUID=dd4f0bd4-96d2-4f92-9faa-7c2689e90c05
+               total        used        free      shared  buff/cache   available
+Mem:              30           0          29           0           0          29
+Swap:             31           0          31

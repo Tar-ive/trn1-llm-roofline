@@ -1,0 +1,61 @@
+INFO 10-27 22:32:39 [__init__.py:43] Available plugins for group vllm.platform_plugins:
+INFO 10-27 22:32:39 [__init__.py:45] - neuron -> vllm_neuron:register
+INFO 10-27 22:32:39 [__init__.py:48] All plugins in this group will be loaded. Set `VLLM_PLUGINS` to control which plugins to load.
+INFO 10-27 22:32:39 [__init__.py:217] Platform plugin neuron is activated
+INFO 10-27 22:32:41 [importing.py:44] Triton is installed but 0 active driver(s) found (expected 1). Disabling Triton to prevent runtime errors.
+INFO 10-27 22:32:41 [importing.py:68] Triton not installed or not compatible; certain GPU-related functions will not be available.
+WARNING 10-27 22:32:41 [interface.py:221] Failed to import from vllm._C: ImportError('libcuda.so.1: cannot open shared object file: No such file or directory')
+[2026-10-27 22:32:46] INFO platform.py:108: Applying Neuron config overrides
+[2026-10-27 22:32:46] INFO platform.py:125: Neuron config overrides applied successfully
+[0;36m(APIServer pid=5064)[0;0m INFO 10-27 22:32:46 [api_server.py:1351] vLLM API server version 0.13.0
+[0;36m(APIServer pid=5064)[0;0m INFO 10-27 22:32:46 [utils.py:253] non-default args: {'model_tag': '/home/ubuntu/models/TinyLlama-1.1B-Chat-v1.0', 'model': '/home/ubuntu/models/TinyLlama-1.1B-Chat-v1.0', 'max_model_len': 1024, 'tensor_parallel_size': 2, 'max_num_seqs': 4}
+[0;36m(APIServer pid=5064)[0;0m INFO 10-27 22:32:53 [model.py:514] Resolved architecture: LlamaForCausalLM
+[0;36m(APIServer pid=5064)[0;0m INFO 10-27 22:32:59 [scheduler.py:230] Chunked prefill is enabled with max_num_batched_tokens=2048.
+[0;36m(APIServer pid=5064)[0;0m [2026-10-27 22:32:59] INFO platform_overrides.py:22: Skipping attention head divisibility check for Neuron platform
+[0;36m(APIServer pid=5064)[0;0m [2026-10-27 22:32:59] INFO platform.py:167: Neuron OpenAI serving overrides applied successfully
+[0;36m(APIServer pid=5064)[0;0m [2026-10-27 22:32:59] INFO platform.py:272: The custom Neuron scheduler will disable chunked prefill and schedule requests using the continuous batching mechanism, prioritizing prefill over decode.
+[0;36m(APIServer pid=5064)[0;0m [2026-10-27 22:32:59] INFO platform.py:285: Neuron custom scheduler default: max_num_batched_tokens set to 131072. Override with --max-num-batched-tokens if needed.
+[0;36m(APIServer pid=5064)[0;0m Traceback (most recent call last):
+[0;36m(APIServer pid=5064)[0;0m   File "/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/bin/vllm", line 8, in <module>
+[0;36m(APIServer pid=5064)[0;0m     sys.exit(main())
+[0;36m(APIServer pid=5064)[0;0m              ^^^^^^
+[0;36m(APIServer pid=5064)[0;0m   File "/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/vllm/entrypoints/cli/main.py", line 73, in main
+[0;36m(APIServer pid=5064)[0;0m     args.dispatch_function(args)
+[0;36m(APIServer pid=5064)[0;0m   File "/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/vllm/entrypoints/cli/serve.py", line 60, in cmd
+[0;36m(APIServer pid=5064)[0;0m     uvloop.run(run_server(args))
+[0;36m(APIServer pid=5064)[0;0m   File "/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/uvloop/__init__.py", line 96, in run
+[0;36m(APIServer pid=5064)[0;0m     return __asyncio.run(
+[0;36m(APIServer pid=5064)[0;0m            ^^^^^^^^^^^^^^
+[0;36m(APIServer pid=5064)[0;0m   File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+[0;36m(APIServer pid=5064)[0;0m     return runner.run(main)
+[0;36m(APIServer pid=5064)[0;0m            ^^^^^^^^^^^^^^^^
+[0;36m(APIServer pid=5064)[0;0m   File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+[0;36m(APIServer pid=5064)[0;0m     return self._loop.run_until_complete(task)
+[0;36m(APIServer pid=5064)[0;0m            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(APIServer pid=5064)[0;0m   File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+[0;36m(APIServer pid=5064)[0;0m   File "/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/uvloop/__init__.py", line 48, in wrapper
+[0;36m(APIServer pid=5064)[0;0m     return await main
+[0;36m(APIServer pid=5064)[0;0m            ^^^^^^^^^^
+[0;36m(APIServer pid=5064)[0;0m   File "/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/vllm/entrypoints/openai/api_server.py", line 1398, in run_server
+[0;36m(APIServer pid=5064)[0;0m     await run_server_worker(listen_address, sock, args, **uvicorn_kwargs)
+[0;36m(APIServer pid=5064)[0;0m   File "/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/vllm/entrypoints/openai/api_server.py", line 1417, in run_server_worker
+[0;36m(APIServer pid=5064)[0;0m     async with build_async_engine_client(
+[0;36m(APIServer pid=5064)[0;0m   File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+[0;36m(APIServer pid=5064)[0;0m     return await anext(self.gen)
+[0;36m(APIServer pid=5064)[0;0m            ^^^^^^^^^^^^^^^^^^^^^
+[0;36m(APIServer pid=5064)[0;0m   File "/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/vllm/entrypoints/openai/api_server.py", line 172, in build_async_engine_client
+[0;36m(APIServer pid=5064)[0;0m     async with build_async_engine_client_from_engine_args(
+[0;36m(APIServer pid=5064)[0;0m   File "/usr/lib/python3.12/contextlib.py", line 210, in __aenter__
+[0;36m(APIServer pid=5064)[0;0m     return await anext(self.gen)
+[0;36m(APIServer pid=5064)[0;0m            ^^^^^^^^^^^^^^^^^^^^^
+[0;36m(APIServer pid=5064)[0;0m   File "/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/vllm/entrypoints/openai/api_server.py", line 198, in build_async_engine_client_from_engine_args
+[0;36m(APIServer pid=5064)[0;0m     vllm_config = engine_args.create_engine_config(usage_context=usage_context)
+[0;36m(APIServer pid=5064)[0;0m                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(APIServer pid=5064)[0;0m   File "/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/vllm/engine/arg_utils.py", line 1699, in create_engine_config
+[0;36m(APIServer pid=5064)[0;0m     config = VllmConfig(
+[0;36m(APIServer pid=5064)[0;0m              ^^^^^^^^^^^
+[0;36m(APIServer pid=5064)[0;0m   File "/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/pydantic/_internal/_dataclasses.py", line 121, in __init__
+[0;36m(APIServer pid=5064)[0;0m     s.__pydantic_validator__.validate_python(ArgsKwargs(args, kwargs), self_instance=s)
+[0;36m(APIServer pid=5064)[0;0m pydantic_core._pydantic_core.ValidationError: 1 validation error for VllmConfig
+[0;36m(APIServer pid=5064)[0;0m   Assertion failed, When prefix caching is enabled, block_size must be set. [type=assertion_error, input_value=ArgsKwargs((), {'model_co...timizationLevel.O2: 2>}), input_type=ArgsKwargs]
+[0;36m(APIServer pid=5064)[0;0m     For further information visit https://errors.pydantic.dev/2.12/v/assertion_error

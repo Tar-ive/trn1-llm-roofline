@@ -1,0 +1,7 @@
+time="2026-10-27T17:38:48Z" level=error msg="no device or system profiles found in input profile directory /home/ubuntu/profiles/20261027T172741Z: the directory does not contain any recognized profile artifacts (*.ntff files or trace_info.pb)"
+time="2026-10-27T17:38:48Z" level=error msg="Processing completed with errors:"
+time="2026-10-27T17:38:48Z" level=error msg="  error: no device or system profiles found in input profile directory /home/ubuntu/profiles/20261027T172741Z: the directory does not contain any recognized profile artifacts (*.ntff files or trace_info.pb)"
+time="2026-10-27T17:38:48Z" level=error msg="  profile: name= type=system status=fail"
+neuron-explorer exited with an error.neuron-explorer 2.33.0.1039-60059b2 built on 2026-10-14T14:07:43Z (commit 60059b26)
+
+no device or system profiles found in input profile directory /home/ubuntu/profiles/20261027T172741Z: the directory does not contain any recognized profile artifacts (*.ntff files or trace_info.pb)

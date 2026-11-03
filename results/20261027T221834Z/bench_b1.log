@@ -1,0 +1,31 @@
+Traceback (most recent call last):
+  File "/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/bin/inference_demo", line 5, in <module>
+    from neuronx_distributed_inference.inference_demo import main
+  File "/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed_inference/inference_demo.py", line 13, in <module>
+    from neuronx_distributed.quantization.quantization_config import (
+  File "/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/__init__.py", line 1, in <module>
+    from . import kernels, parallel_layers, pipeline, trace, utils
+  File "/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/kernels/__init__.py", line 1, in <module>
+    from .flash_attn import nki_flash_attn_func
+  File "/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/neuronx_distributed/kernels/flash_attn.py", line 4, in <module>
+    import torch_xla.core.xla_model as xm
+  File "/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/torch_xla/__init__.py", line 199, in <module>
+    _found_libneuronxla = _aws_ec2_inf_trn_init()
+                          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/torch_xla/__init__.py", line 140, in _aws_ec2_inf_trn_init
+    xla.init()
+  File "/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/torch_neuronx/xla.py", line 95, in init
+    initialize()
+  File "/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/torch_neuronx/initialization/__init__.py", line 13, in initialize
+    _initializer = Initializer()
+                   ^^^^^^^^^^^^^
+  File "/opt/aws_neuronx_venv_pytorch_inference_vllm_0_13/lib/python3.12/site-packages/torch_neuronx/initialization/initializer.py", line 88, in __init__
+    subprocess.run(["libneuronpjrt-path"], stdout=subprocess.PIPE)
+  File "/usr/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.12/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'libneuronpjrt-path'

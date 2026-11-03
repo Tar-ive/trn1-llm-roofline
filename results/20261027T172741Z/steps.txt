@@ -1,0 +1,8 @@
+inventory rc=0 115s
+model rc=0 49s
+bench_b1 rc=1 3s
+bench_b4 rc=1 3s
+profile_b1 rc=0 7s
+vllm_c1 rc=1 913s
+vllm_c4 rc=1 913s
+roofline rc=0 0s

@@ -1,0 +1,10 @@
+infra/.state/
+*.neff
+*.ntff
+*.safetensors
+*.pt
+__pycache__/
+# raw profiler traces are kept with each run (autosave still skips files >50MB)
+!results/*/profile_raw/**/*.neff
+!results/*/profile_raw/**/*.ntff
+traces/
